@@ -13,7 +13,7 @@ We must take time when answering problems. We have time, but a common mistake is
 1. Solve it manually with 3 sets of sample data.
 1. Optimize the manual steps. 
 1. Write the manual steps as comments or pseudo-code.
-1. Replace psuedo code with real code.
+1. Replace pseudo code with real code.
 1. Optimize the real code.
 
 # 
