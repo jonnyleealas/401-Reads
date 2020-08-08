@@ -36,6 +36,13 @@
 
 ## Professional Competencies Self Assessment 
 - [Assessment](progress/assessment.md)
+# 
+
+## Pre-Work
+- [Pre-work Reads](prework/pre1.md)
+- [Pre-work Reads](prework/pre2.md)
+- [Pre-Work Reads](prework/pre3.md)
+- [Pre-Work Reads](prework/pre4.md)
 
 
 
@@ -43,10 +50,6 @@
 
 ## Table Of Contents
 
-- [Pre-work Reads](prework/pre1.md)
-- [Pre-work Reads](prework/pre2.md)
-- [Pre-Work Reads](prework/pre3.md)
-- [Pre-Work Reads](prework/pre4.md)
 
 
 
