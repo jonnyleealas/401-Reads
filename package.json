@@ -1,0 +1,23 @@
+{
+  "name": "401-Reads",
+  "version": "1.0.0",
+  "description": "## This journal contains notes of readings of my journey in Code 401 at Code Fellows.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnyleealas/401-Reads.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonnyleealas/401-Reads/issues"
+  },
+  "homepage": "https://github.com/jonnyleealas/401-Reads#readme",
+  "dependencies": {
+    "mongoose": "^5.9.28"
+  }
+}
