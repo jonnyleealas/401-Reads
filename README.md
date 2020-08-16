@@ -52,7 +52,7 @@
 
 - [class1 reading](readings/day1.md)
 - [class2 reading](readings/day2.md)
-- [class3 reading](readings/class3.md)
+- [Data Modeling](readings/day3.md)
 - [class4 reading](readings/class4.md)
 - [class5 reading](readings/class5.md)
 - [class6 reading](readings/class6.md)
