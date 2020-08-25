@@ -54,7 +54,7 @@
 - [class2 reading](readings/day2.md)
 - [Data Modeling](readings/day3.md)
 - [Advanced Mongo/Mongoose](readings/day4.md)
-- [class5 reading](readings/class5.md)
+- [Linked Lists](readings/day5.md)
 - [class6 reading](readings/class6.md)
 - [class7 reading](readings/class7.md)
 - [class8 reading](readings/class8.md)
