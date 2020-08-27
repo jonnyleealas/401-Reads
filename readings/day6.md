@@ -2,7 +2,7 @@ Jonathon Lee
 Class 401
 Read 6
 
-# Mongo/Mongoose
+# Data models Sql vs NoSql
 
 1. Why would a developer choose to make data models?
 Data models help with quality of work. Making a sketch or a blueprint of the work that needs to be done.
