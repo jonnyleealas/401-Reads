@@ -55,7 +55,7 @@
 - [Data Modeling](readings/day3.md)
 - [Advanced Mongo/Mongoose](readings/day4.md)
 - [Linked Lists](readings/day5.md)
-- [class6 reading](readings/class6.md)
+- [Data Models Sql vs NoSql](readings/day6.md)
 - [class7 reading](readings/class7.md)
 - [class8 reading](readings/class8.md)
 - [class9 reading](readings/class9.md)
