@@ -38,7 +38,7 @@ I feel I am adaptive and constantly learning. I am proud that I have attempted m
 1. When am I happy?
 I am happy around my friends and family. I am happy when i accomplish a goal.
 
-1, Why do I have the relationships that I have?
+1. Why do I have the relationships that I have?
 I've learned how to avoid people that may be bad influences. Also, I have forced myself to be at peace with meeting new people. 
 
 ### 2. Consider Your Options
