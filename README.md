@@ -41,7 +41,8 @@
 - [Pre-Work Reads](prework/pre3.md)
 - [Pre-Work Reads](prework/pre4.md)
 
-
+## Coaching
+- [Purpose](coaching/purpose.md)
 
 
 
