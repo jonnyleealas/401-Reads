@@ -42,7 +42,7 @@
 - [Pre-Work Reads](prework/pre4.md)
 
 ## Coaching
-- [Purpose](coaching/purpose.md)
+- [Purpose](coaching/Purpose.md)
 
 
 
