@@ -58,7 +58,7 @@
 - [Linked Lists](readings/day5.md)
 - [Data Models Sql vs NoSql](readings/day6.md)
 - [Restful APIs](readings/day7.md)
-- [class8 reading](readiags/class8.md)
+- [Middleware](readings/day8.md)
 - [class9 reading](readings/class9.md)
 - [class10 reading](readings/class10.md)
 - [class11 reading](readings/class11.md)
