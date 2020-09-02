@@ -6,11 +6,11 @@
 1. Name 3 real world use cases where you’d want to change the request with custom middleware.
 #
     a. When modifying the property for a req.
-    #
+    
     b. Custom string responses.
-    #
+    
     c. To prevent a user from preforming certain operations.
-    #
+    
 1. True or false: The route handler is middleware?
 Yes.
 1. In what ways can a middleware function end the process and send data to the browser?
