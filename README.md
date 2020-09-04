@@ -59,7 +59,7 @@
 - [Data Models Sql vs NoSql](readings/day6.md)
 - [Restful APIs](readings/day7.md)
 - [Middleware](readings/day8.md)
-- [class9 reading](readings/class9.md)
+- [API Server](readings/day9.md)
 - [class10 reading](readings/class10.md)
 - [class11 reading](readings/class11.md)
 - [class12 reading](readings/class12.md)

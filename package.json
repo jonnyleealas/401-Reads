@@ -4,7 +4,8 @@
   "description": "## This journal contains notes of readings of my journey in Code 401 at Code Fellows.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "start": "node index.js"
+    "test": "jest --verbose --coverage"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,11 @@
   },
   "homepage": "https://github.com/jonnyleealas/401-Reads#readme",
   "dependencies": {
-    "mongoose": "^5.9.28"
+    "dotenv": "^8.2.0",
+    "env": "0.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "jest": "^26.4.0"
