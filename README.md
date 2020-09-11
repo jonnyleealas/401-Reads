@@ -62,7 +62,7 @@
 - [API Server](readings/day9.md)
 - [class10 reading](readings/class10.md)
 - [Authentication](readings/day11.md)
-- [class12 reading](readings/class12.md)
+- [class12 reading](readings/day12.md)
 - [class13 reading](readings/class13.md)
 - [class14 reading](readings/class14.md)
 - [class14 reading](readings/class14b.md)
