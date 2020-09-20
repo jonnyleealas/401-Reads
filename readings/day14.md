@@ -5,8 +5,6 @@
 # Bearer Authorization
 
 
-
-
 ## Write the following steps in the correct order:
 ```
 1. Register your application to get a client_id and client_secret
@@ -42,7 +40,19 @@ Oauth has an extra level of security by using authorization and access tokens. I
 
 ```
 
-Which 3 things had you heard about previously and now have better clarity on?
+
+## Term
+```
+- Client ID: Clients identification number.
+- Client Secret: Known to your application and auth server. Grants tokens to authorized personal. {authO.com}
+- Authentication Endpoint: Interact with the resource owner and obtain an authorization grant. {developer.okta.com}
+- Access Token Endpoint: Validates auth cod and issues tokens upon request.{digst.dk.com}
+- API Endpoint: End of a communication channel. Touch points between systems in an API.{rapidapi.com}
+- Authorization Code: Temporary code that a client will exchange for an access token. {oauth.com}
+- Access Token: Gives application authorization to make api requests on user behalf. It allows access to users specific data.{developers.google.com}
+```
+
+### Which 3 things had you heard about previously and now have better clarity on?
 I learned how to create middleware to add security.
 I finally understand what dotenv and gitignore are used for.
 Connectivity between functions is less tangled in my brain and making more sense.
