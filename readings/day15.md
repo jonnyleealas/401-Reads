@@ -19,7 +19,7 @@ We should make sure that no one sees the secret by using dotenv. The secret does
 encryption: Information converted into a secret code.
 token: A code given once a user is authenticated.
 bearer: Take a token and authenticates the token to approve access.
-secret:
+secret: A JSON web token usually inside a dotenv for security.
 JSON Web Token: Credentials that grant a user access to api requests and user data.
 ```
 
