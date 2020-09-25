@@ -65,7 +65,7 @@
 - [Stack and Queues](readings/day12.md)
 - [OAuth](readings/day13.md)
 - [OAuth and Access Tokens](readings/day14.md)
-- [class14 reading](readings/class14b.md)
+- [class14 reading](readings/day15.md)
 - [class15 reading](readings/class15.md)
 - [class16 reading](readings/class16.md)
 - [class17 reading](readings/class17.md)
