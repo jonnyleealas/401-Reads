@@ -1,6 +1,6 @@
 # 401-Reads
 
-## This journal contains notes of readings of my journey in Code 401 at Code Fellows. 
+## This journal contains notes of readings of my progress in Javascript 401 at Code Fellows in Seattle, Wa. 
 
 ### Jonathon Lee July 30, 2020.
 > And this is where the fun begins. -Ahsoka Tano
