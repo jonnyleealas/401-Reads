@@ -1,6 +1,6 @@
 # Jonathon Lee
-# Class 401
-## Read 8
+## Javascript 401
+### Read 8
 
 ### Review, Research, and Discussion
 1. Name 3 real world use cases where you’d want to change the request with custom middleware.

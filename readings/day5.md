@@ -1,6 +1,6 @@
-Jonathon Lee
-Class 401
-Read 5
+# Jonathon Lee
+## Javascript 401
+### Read 5
 
 # Big O/ O(n) Time complexity 
 - O of N

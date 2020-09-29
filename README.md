@@ -1,6 +1,6 @@
 # 401-Reads
 
-## This journal contains notes of readings of my journey in Code 401 at Code Fellows. 
+## This journal contains notes of readings of my progress in Javascript 401 at Code Fellows in Seattle, Wa. 
 
 ### Jonathon Lee July 30, 2020.
 > And this is where the fun begins. -Ahsoka Tano
@@ -67,8 +67,7 @@
 - [OAuth and Access Tokens](readings/day14.md)
 - [Access Control](readings/day15.md)
 - [Role Based Access Control](readings/day16.md)
-- [class16 reading](readings/class16.md)
-- [class17 reading](readings/class17.md)
+- [TCP Servers](readings/day17.md)
 - [class18 reading](readings/class18.md)
 - [class19 reading](readings/class19.md)
 - [class20 reading](readings/class20.md)

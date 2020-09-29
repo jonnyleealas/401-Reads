@@ -1,7 +1,6 @@
-Jonathon Lee
-Class 401
-Read 2
-
+# Jonathon Lee
+## Javascript 401
+### Read 2
 
 # Test Driven Development Advantages
 1. It helps devs find bugs early on. It saves money to fix bugs earlier in the project.

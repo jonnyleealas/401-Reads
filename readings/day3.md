@@ -1,6 +1,6 @@
-Jonathon Lee
-Class 401
-Read 3
+# Jonathon Lee
+## Javascript 401
+### Read 3
 
 # Data Modeling
 Improves quality of an application. It helps organize and helps for better human resources. It's a planning stage for data analytics.
