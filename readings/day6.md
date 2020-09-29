@@ -1,6 +1,6 @@
-Jonathon Lee
-Class 401
-Read 6
+# Jonathon Lee
+## Javascript 401
+### Read 6
 
 # Data models Sql vs NoSql
 

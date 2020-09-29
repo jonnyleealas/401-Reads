@@ -1,6 +1,6 @@
 # Jonathon Lee
-# Class 401
-## Read 11
+## Javascript 401
+### Read 11
 
 
 ## Authentication

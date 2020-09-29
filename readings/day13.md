@@ -1,5 +1,5 @@
 # Jonathon Lee
-# Class 401
+# Javascript 401
 ## Read 12
 
 # OAuth
