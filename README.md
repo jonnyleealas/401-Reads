@@ -68,7 +68,7 @@
 - [Access Control](readings/day15.md)
 - [Role Based Access Control](readings/day16.md)
 - [TCP Servers](readings/day17.md)
-- [class18 reading](readings/class18.md)
+- [Career Coaching](readings/day18.md)
 - [class19 reading](readings/class19.md)
 - [class20 reading](readings/class20.md)
 - [class21 reading](readings/class21.md)
