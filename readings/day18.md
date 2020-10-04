@@ -22,3 +22,6 @@ A: There are different ways to network. It doesn't always have to be in person.
 B: Email people and ask questions.
 C: Set up coffee meetups. 
 ```
+
+#### Targeted job search spread sheet
+[Job Search Link](https://docs.google.com/spreadsheets/d/1iqG46p3xMY-mS-PKPE_NluMYj2z4xImqCN0ryh_AQCI/edit?usp=sharing)
