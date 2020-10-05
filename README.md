@@ -69,7 +69,7 @@
 - [Role Based Access Control](readings/day16.md)
 - [TCP Servers](readings/day17.md)
 - [Career Coaching](readings/day18.md)
-- [class19 reading](readings/class19.md)
+- [Binary Tree](readings/day19.md)
 - [class20 reading](readings/class20.md)
 - [class21 reading](readings/class21.md)
 - [class22 reading](readings/class22.md)
