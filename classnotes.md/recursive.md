@@ -31,3 +31,5 @@ family.forEch(person => familyStack.push(person));
 console.log(json.stringify(familystack, null, 4));
 
 data sturcture questions always use stack
+
+a loop within itself is recursive. 
