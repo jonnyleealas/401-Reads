@@ -71,5 +71,5 @@
 - [Career Coaching](readings/day18.md)
 - [Binary Tree](readings/day19.md)
 - [Socket.io](readings/day20.md)
-- [class21 reading](readings/day21.md)
+- [Message Queues](readings/day21.md)
 - [class22 reading](readings/day22.md)
