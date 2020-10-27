@@ -9,6 +9,8 @@ Sept 15 2020
 - Peek is look at the last item in the stack without adding or removing.
 - Text editors undo redo feature are stacks.
 
+Use cases for stacks are control z. Undo and redo, going back on website.
+
 # Queues 
 - First in first out means the first person in the queue is the first person out.
 - Similar to a line at the movies. First person in the line is the first person to go out.

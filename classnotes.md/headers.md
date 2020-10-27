@@ -1,0 +1,2 @@
+Headers send information through requests. They are similar to payload.
+Headers are data placed at the beginning of a block of data being stored and tranmitted. In data transmission the data following hte header is sometimes called the payload or body.
