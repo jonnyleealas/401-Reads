@@ -3,13 +3,13 @@
 ## Component Based UI
 
 ### Name 5 Javascript UI Frameworks (other than React)
-```
-*Angular
-*Vue
-*Ext
-*Ember
-*Svelte 3
-```
+
+- Angular
+- Vue
+- Ext
+- Ember
+- Svelte 3
+
 ### What’s the difference between a framework and a library?
 ```
 A library is a collection of objects/functions/methods, Utilities, and classes. It's pre-written code we can use.
@@ -38,16 +38,16 @@ A snap shot of the data a program is looking at or analyzing currently to get to
 
 **Which 3 things had you heard about previously and now have better clarity on?**
 ```
-*React
-*NPM
-*JSDOC
+    - React
+    - NPM
+    - JSDOC
 
 ```
 **Which 3 things are you hoping to learn more about in the upcoming lecture/demo?**
 ```
-*SCSS
-*React
-*Data Structures
+    - SCSS
+    - React
+    - Data Structures
 
 ```
 **What are you most excited about trying to implement or see how it works?**
