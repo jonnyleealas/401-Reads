@@ -73,3 +73,4 @@
 - [Socket.io](readings/day20.md)
 - [Message Queues](readings/day21.md)
 - [Compentant Based UI](readings/day22.md)
+- [Props and State](readings/day23.md)
