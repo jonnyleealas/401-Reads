@@ -72,4 +72,4 @@
 - [Binary Tree](readings/day19.md)
 - [Socket.io](readings/day20.md)
 - [Message Queues](readings/day21.md)
-- [class22 reading](readings/day22.md)
+- [Compentant Based UI](readings/day22.md)
