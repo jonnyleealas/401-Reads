@@ -74,3 +74,4 @@
 - [Message Queues](readings/day21.md)
 - [Compentant Based UI](readings/day22.md)
 - [Props and State](readings/day23.md)
+- [Component Composition](readings/day24.md)
