@@ -44,7 +44,7 @@ Mounting refers to the first time react renders a component and builds the Dom.
 ```
 - build
 ```
-
+Creates a build of your react app. Instead of running Http requests for all of your application files build merges all you files together making your site quicker at load.
 
 ```
 
