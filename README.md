@@ -75,3 +75,4 @@
 - [Compentant Based UI](readings/day22.md)
 - [Props and State](readings/day23.md)
 - [Component Composition](readings/day24.md)
+- [Hash Table](readings/hashtable.md)
