@@ -86,3 +86,14 @@ Passing A Value
             GET
          </button>
 - when passing a value in react we have to call a function that calls this.function with an arrow
+
+Disable Clicked button
+- {https://reactjs.org/docs/conditional-rendering.html}
+
+Text Area and Buttons
+- Can Disable true if we want to block them out from letting someone use them.
+
+Div
+- Adding a div puts things in order underneath eachother
+
+\n returns a line break thing look this up
