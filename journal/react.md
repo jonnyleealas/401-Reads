@@ -67,3 +67,22 @@ use strict
 
 Class
 - Are just functions inside javascript
+
+STATE
+- Global memory box
+- in constructor set it as an object
+- command f let you find things on the page
+
+React 
+- initialize this.state to an empty object so that give the object whatever you want.
+- its a memory box
+
+this.setState
+- reacts to whenever its state is changed
+- This is how other values are read because they now have access to the saved value when we use setSTate.
+
+Passing A Value
+-  <button type="button" onClick={() => this.crudMethod("GET")}>
+            GET
+         </button>
+- when passing a value in react we have to call a function that calls this.function with an arrow
