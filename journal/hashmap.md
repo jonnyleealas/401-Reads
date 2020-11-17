@@ -50,3 +50,10 @@ channing  means creating linked lists inside of buckets.
 
 Conslustion 
 A hash map or hash table uses a hash function to compute an index(hash code), into an array. That array can hold data in its index or buckets in the for of linked lists to avoid collision( having multiple values stored in the same index). Hash tables are more efficient than search trees or other table look up structures.
+
+Hashtable
+- We cannot itterate inside a hashtable.
+- Maybe we can put it in an array so we can itterate.
+- We put keys in there using linked list
+- We can't use a for loop to iterate
+- We are not storing keys
