@@ -78,3 +78,4 @@
 - [Hash Table](readings/hashtable.md)
 - [React Routing](readings/routing.md)
 - [Hooks API](readings/hooksapi.md)
+- [Custom Hooks](readings/customhooks.md)
