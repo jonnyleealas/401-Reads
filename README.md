@@ -79,3 +79,4 @@
 - [React Routing](readings/routing.md)
 - [Hooks API](readings/hooksapi.md)
 - [Custom Hooks](readings/customhooks.md)
+- [Context API](readings/contextapi.md)
