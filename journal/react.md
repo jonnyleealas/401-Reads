@@ -102,7 +102,15 @@ Class
 
 # onClick
 When using a function with a parameter in it we must invoke it with a function aka 
-callback
+callback. 
+    - in order to pass arguments in a function call we must invoke the function with an arrow function.
+    - the reason for the arrow function is that it is anonymous. Just a function to 
+    use in the onClick={}
+this returns a reference to a function
     ```
     onClick={ ()=> function(stuff)}
     ```
+this is a reference of a function
+```
+onClick={functionWhatever}
+```
