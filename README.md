@@ -80,3 +80,4 @@
 - [Hooks API](readings/hooksapi.md)
 - [Custom Hooks](readings/customhooks.md)
 - [Context API](readings/contextapi.md)
+- [React Day1](journal/reactclass1.md)
