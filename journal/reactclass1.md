@@ -79,3 +79,32 @@ we are not allowed to touch this file
 # Capitol letter in functions
 - When creating components
 
+# Event
+- name= event.target.name is in the input field
+- we can create in events what we want to targer in the input fields or inline.
+- name = is name in the [ name ] in setState
+- value = is the value in the [name]: value in setState
+# state 
+```
+handleInputChange = (event)=>{
+const name = event.target.name;
+const value = event.target.value;
+const count = this.state.count +1;
+// name is in brackets because it can now go to the input field and target name=''
+this.setState({ [name]: value } )
+ }
+  render(){
+    return(
+      <>
+      <Header />
+        <h1>{this.state.firstname} {this.state.lastname}
+        </h1>
+        <h2>Touches: {this.state.count}</h2>
+        <input name="firstname" placeHolder="First Name" onChange={this.handleInputChange} />
+        <input name="lastname" placeHolder="Last Name" onChange={this.handleInputChange} />
+        <Footer />
+      </>
+    )
+  }
+}
+```
