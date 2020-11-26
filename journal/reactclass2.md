@@ -41,3 +41,6 @@ render(){
 
 export default App;
 ```
+
+# {} means in React
+- JS can run inside curly braces inline
