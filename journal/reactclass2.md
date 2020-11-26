@@ -44,3 +44,7 @@ export default App;
 
 # {} means in React
 - JS can run inside curly braces inline
+
+# htmlFor
+- A label function in react. 
+- Don't know what it does exactly.
