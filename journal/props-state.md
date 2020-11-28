@@ -9,6 +9,7 @@
 # Parent and Child Components
 - Parent pass down to children
 - Children have siblings
+- state is an object that is scoped to the top level of whatever function its in.
 
 # Children Components
 - App component can have state
@@ -22,3 +23,30 @@
     - This is called one way data flow
     If there was a component inside a child container child 1 can send state into child 2 that is inside.
 ```
+
+# Changing stat within a functions
+- To change the state of a child within a container. C1 must pass the change functions to a container below it.
+- App.js must send down the functions to change to its children.
+
+# React server
+- Kinda requires a server
+- When its deployed to a service the service runs it on its own web server.
+
+# react app commands
+npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd props-state
+  npm start
