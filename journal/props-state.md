@@ -32,4 +32,11 @@
 - Kinda requires a server
 - When its deployed to a service the service runs it on its own web server.
 
-
+# Remember about state
+- On an onClick we need to use a blank function to call a function when the function is using a parameter.
+```
+Wrong: onClick={ this.function(param) }
+Correct: onClick={ () => this.function(param) }
+```
+- HandleSubmit must always take an e.preventDefault()
+- Instances of class are all separated unless they are passed down functions. Each instance are on their own and don't know that the other exists.
