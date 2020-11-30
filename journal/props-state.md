@@ -40,3 +40,23 @@ Correct: onClick={ () => this.function(param) }
 ```
 - HandleSubmit must always take an e.preventDefault()
 - Instances of class are all separated unless they are passed down functions. Each instance are on their own and don't know that the other exists.
+
+# Mounting
+- Component is first created
+- put into the dom
+- constructor
+- static method
+- render()
+- componenetDidMount() this happnes instantly
+- state change is updating
+- anytime state changes render gets called
+
+# ComponentDidMount()
+- Use this when we want to render things right away.
+
+# Iterate through an array
+- .map: Both map and filter Return something. They return a new array.
+- .foreach
+- .for
+- .while
+- .filter: Both map and filter Return something. They return a new array.
