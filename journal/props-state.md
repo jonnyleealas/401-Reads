@@ -53,9 +53,14 @@ Correct: onClick={ () => this.function(param) }
 
 # ComponentDidMount()
 - Use this when we want to render things right away.
+- used for async calls
+- use this when im fetching data. If i know the data then just set the state.
 
 # Iterate through an array
 - .map: Both map and filter Return something. They return a new array.
+  ```
+  takes value and index
+  map((value, index)=>{})
 - .foreach
 - .for
 - .while
