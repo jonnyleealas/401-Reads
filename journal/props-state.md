@@ -74,4 +74,11 @@ We can have a parent component take in a child component. The parent can have st
 - Props are the properties of the instance of the class.
 - When we make a component, in order to use props from the parent we must give it the ability to use those props ex: spend={this.props.spend}.
 Then when we call the child component inside the parent component we can use those props ex: <kid spend={this.withdraw}>. Above we gave spend the props of {this.props.spend} .spend is the props. In our parent component we have spend={this.withdraw}. Our child component is matching its props.spend with the spend in the parent component; the spend value is now able to give the child this.withdraw method from the parent component.
-- To summarize: the child must be given ```this.props.parentprop``` the parent then uses ```parentprop={this.whatever}``` to give the child its props or function. The key in parent is called spend. So the value of the key of spend is whichever method the parent will give to the child. this.prop.value. Props is used to give it a value we can then use that value in the parent to give data to the child.
+- To summarize: the child must be given ```this.props.parentprop``` the parent then uses ```parentprop={this.whatever}``` to give the child its props or function. The key in parent is called spend. So the value of the key of spend is whichever method the parent will give to the child. this.prop.value. Props is used to give it a key we can then use that key in the parent to give data to the child.
+
+# React render state change
+- React notices a state change and renders that portion
+- something in the render method cares about this piece of state so it watches that piece of state. 
+- Changing state means rendering something new.
+- props are data passed down to each component.
+- state can be anything. it can control anything in the virtual dom. state is like the thermostat. it knows the temperature and it can change the temp. if there are thermostats around the house it can change the temperature anywhere there's a thermostat.
