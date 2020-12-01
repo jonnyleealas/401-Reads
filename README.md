@@ -81,3 +81,4 @@
 - [Custom Hooks](readings/customhooks.md)
 - [Context API](readings/contextapi.md)
 - [React Day1](journal/reactclass1.md)
+- [Login and Auth](readings/loginauth.md)
