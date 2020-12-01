@@ -65,3 +65,12 @@ Correct: onClick={ () => this.function(param) }
 - .for
 - .while
 - .filter: Both map and filter Return something. They return a new array.
+
+# Props
+- send state to children
+- send functions to children
+- send data to functions
+We can have a parent component take in a child component. The parent can have state or functions that the child components can use. It can send data to the children and the children can use that data.
+- Props are the properties of the instance of the class.
+- When we make a component, in order to use props from the parent we must give it the ability to use those props ex: spend={this.props.spend}.
+Then when we call the child component inside the parent component we can use those props ex: <kid spend={this.withdraw}>. Above we gave spend the props of {this.props.spend} .spend is the props. In our parent component we have spend={this.withdraw}. Our child component is matching its props.spend with the spend in the parent component; the spend value is now able to give the child this.withdraw method from the parent component.
