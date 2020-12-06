@@ -38,6 +38,6 @@ Represented by a 2 dimensional array. Each row and column represents vertices. 0
 ## Adjacency List
 Most common way to represent graphs. It is a collection of linked list or array that list all vertices that are connected.
 
-![Adjacency List](./img/Adjlist.png)
+![Adjacency List](./img/AdjList.png)
 
 
