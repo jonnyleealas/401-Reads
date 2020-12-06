@@ -19,4 +19,30 @@ useEffect( () => {
 useEffect ( () =>{
 
 },[])
-We can also have useEffect only run once
+We can also have useEffect only run once when we add the array of things to listen to in the params.
+```
+# use case for only render once
+- loading intitial state from a db or api
+- loading a list of searched url from local storage on page render.
+
+- on useEffect, unload, go to the database, fetch and it all comes out. This is how the list works.
+- There are event listeners in useEffect
+- constantly listening
+- it listens to what we pass in the second parameter. once it notices that the second parameter function was affected it runs the code inside useEffect. We give it what to listen for and then it runs a code.
+
+# Rule 
+- WE MAY NEVER SET INITIAL STATE FROM PROPS
+- THIS WILL ONLY SET IT ONCE
+- We should use useEffect() if we need to run code on certain conditions.
+- If you dont need initial loading or something of the sort we dont need to use useEffect.
+
+# Steps
+1. import React
+1. import React, { useState, other hooks}
+1. import React, { useState, other hooks} from 'react'
+
+## side note
+- Hooks always start with the word use.
+- only effect hooks runs a callback function.
+- consider hooks to be asynchronous. 
+- organize and prioritize: what needs to get done, where is the best place to start.
