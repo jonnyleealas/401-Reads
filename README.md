@@ -83,3 +83,4 @@
 - [React Day1](journal/reactclass1.md)
 - [Login and Auth](readings/loginauth.md)
 - [Graphs](readings/graphs.md)
+- [Technical Interviews](readings/technicalinterviews.md)
