@@ -44,4 +44,23 @@
     * setting and font size or dark mode don't change much; making context stable.
     * we can have layers of context
     * try to keep context small
+    * context manages the state of the page im in.
+    * wraps app
+    * context: settings --> theme -->
+    ```
+    <setting>
+      <theme>
+        <app />
+      </theme>
+    </setting>
+    ```
+    * This will be jsx: Javascript that looks like markup. We can write javascript the same way we write markup.
 
+# Theme context component
+- We always export two things
+    * Core context
+    * exporting a function by name needs to be imported something else as such..
+    ```
+    export const FunctionName = React.createContext()
+    import example: import {FunctionName}
+    ```
