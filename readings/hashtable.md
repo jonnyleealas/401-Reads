@@ -54,3 +54,93 @@ A hash map or hash table uses a hash function to compute an index(hash code), in
 ```
 Hash maps are sets of data that are chained. Think of a door that has hanging beads across the top frame. The frame would be the array holding the data(beads). The beads would be the linked list, or chains that hang to the frame, and can go on forever.
 ```
+
+## Building a Hash Table
+class HashTable {
+  constructor(size){
+    this.data = new Array(size)
+  }
+
+
+hashed(key){
+let hash = 0
+for(let i = 0; i <key.length; i++){
+  hash = (hash + key.charCodeAt(i) * i) % this.data.length
+  }
+return hash
+}
+
+add(key, value){
+  // add takes  key and a value
+  // hashes the key
+  // then we save the hashed key in memory using a variable called index
+  // then we check if this.data[idx] is not in table. 
+  // create an empty Array
+  // push [key, value]
+let idx = this.hashed(key)
+if(!this.data[idx]){
+  this.data[idx]= []
+}
+this.data[idx].push([key,value])
+return this.data
+}
+
+get(key){
+// first we hash the key and save in variable
+// we also save current idx
+// then we check if something is in current index. if so we run a for loop and make some checks.
+// in the for loop we make and if check
+// if currnIndx at postion [i] and position [i] at [0] === key
+// return currentIdx[i][1] to give us the value.
+const idx = this.hashed(key)
+const currentIdx = this.data[idx]
+if(currentIdx){
+  for(let i= 0; i < currentIdx.length; i++){
+    if(currentIdx[i][0]=== key){
+      return currentIdx[i][1]
+    }
+  }
+}
+return null
+}
+
+
+
+contains(key){
+    // we hash and save key in variable
+const idx = this.hashed(key)
+// we save our current position
+const currentIdx = this.data[idx]
+// we check to if index is undefined
+if(currentIdx=== undefined){
+  return false
+} else{
+    // else if there is an index
+  if(currentIdx){
+      // run a for loop through hashtable
+    for(let i = 0; i < key.length; i++){
+        // if current index[i][0] matches our key return true
+      if(currentIdx[i][0]=== key){
+        return true
+      } else{
+          // else return false
+        return false
+      }
+    }
+   }
+  }
+ }
+}
+
+
+
+
+const newHash = new HashTable(50)
+
+newHash.add('grapes', 1000)
+newHash.add('vine', 1000)
+newHash.add('happy', 1000)
+
+newHash.get('snail')
+
+
