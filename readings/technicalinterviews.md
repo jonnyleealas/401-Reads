@@ -13,5 +13,4 @@
 ## Did you bookmark these tools?
 Yes.
 
-![GoogleDoc Tool](./img/googledoctools.png
-)
+![GoogleDoc Tool](./img/googledoctools.png)

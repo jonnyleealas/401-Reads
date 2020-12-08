@@ -84,3 +84,4 @@
 - [Login and Auth](readings/loginauth.md)
 - [Graphs](readings/graphs.md)
 - [Technical Interviews](readings/technicalinterviews.md)
+- [App State With Redux](readings/redux.md)
