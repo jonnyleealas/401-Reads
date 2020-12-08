@@ -52,3 +52,4 @@
  - we use a for loop at string.length
  - create a const hash
  - multiple hash by prime number then by s.charCode(i) then modulo charCOde(i) with a prime number.
+ - we always set an array size.
