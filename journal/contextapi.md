@@ -17,3 +17,31 @@
 - like the state lives in a cloud that components can access.
 - this state will have its own functions.
 - components can access those functions from the global state.
+- also known as opt in or subscribe.
+- also known as a God component
+- components using the god component will and can have their own state
+
+# What goes in global?
+- Components
+    * esoteric
+    * not shared
+- Application data
+    * todo
+    * application data
+    * common
+    * visible
+    * shared
+    * high level of volatility
+    * things change all the time meaning its volatile
+    * redux will make app global
+    * will be able to work alongside context.
+- Context
+    * Global
+    * shared
+    * common
+    * Level of volatility is low or stable
+    * extensions within dont move much
+    * setting and font size or dark mode don't change much; making context stable.
+    * we can have layers of context
+    * try to keep context small
+
