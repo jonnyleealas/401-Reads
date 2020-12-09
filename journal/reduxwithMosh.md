@@ -11,5 +11,28 @@
 
 # What it does
 - connects components in flow by syncing state
+- preserves page state
+- state is available on client
+- state changes are predictable
+- centralized state stored in a single place
+- easy to debug
+- cash or preserve page state
+- we can implement undo/redo features
+- works with many libraries
+- persistent state
+
+# Cons
+- complexity in code because of functional programming.
+- verbosity boiler plate code to get things done.
+
+# when to use
+- 
+
+
+
+
+
+
 
 # Redux Dev Tools
+-  
