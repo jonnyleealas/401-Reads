@@ -29,3 +29,6 @@ Use this when rendering multiple components within a function
 # Pass by reference vs pass by value
 - Pass by reference you can use a copy with spread operator
 - Pass by value use the intitial state which is stupid
+
+# git revert
+- add hash code in terminal to go to previous change.
