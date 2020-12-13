@@ -13,6 +13,8 @@
 - two child nodes are names left or right.
 - left children are always left than their parent
 - right child is always greater than their  parent.
+- BST
+- involve a lot of recursion 
 
 ## Balanced
 - left and right sub trees have roughley same amount of trees
