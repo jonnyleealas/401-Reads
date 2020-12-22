@@ -86,3 +86,4 @@
 - [Technical Interviews](readings/technicalinterviews.md)
 - [App State With Redux](readings/redux.md)
 - [Redux Combined Reducers](readings/reduxcombinedreducers.md)
+- [Redux Pre Load](readings/reduxPreLoad.md)
