@@ -10,3 +10,7 @@
 - stack.pop() in order to view 
 - enqueue to add to queue
 - stack.peek() lets you view only the top of the stack.
+
+# While vs Recursive
+- in a while loop we use the loop while the condition exist
+- in recursion we make a check , check some more things, run the function inside of its self. Then it does the process again: make a check, check some more things, run the function inside its self.
