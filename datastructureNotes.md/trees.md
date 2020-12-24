@@ -31,6 +31,7 @@
 -
 
 # in order
+- left, visit, print, right
 - produces a sorted list
 - it starts with the smallest number starting at the left
 
