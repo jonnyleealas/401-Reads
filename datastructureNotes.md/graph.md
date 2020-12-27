@@ -38,4 +38,22 @@
     space:
     O(v)
 
-    
+
+# Following
+- following a user creates a new directed edge
+- edges in face book are undirected. When you are fiends with each other the edges face both ways.
+
+# depth first
+- start node go to its first child till there are no children.
+
+# breadth
+- add children to queue. once they have been visited move on to grand children. follow this path in layers.
+
+# weighted
+- either carries data or does not carry data(unweighted)
+
+
+# matrix vs adjacency 
+- matrix takes up more space but easier to visualize
+- less effiecient to itterate over
+- use a map instead of an object. maps are hash.
