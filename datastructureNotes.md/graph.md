@@ -37,7 +37,7 @@
     O(v+e)
     space:
     O(v)
-
+    linear - meaning it grows as node and edges grow
 
 # Following
 - following a user creates a new directed edge
