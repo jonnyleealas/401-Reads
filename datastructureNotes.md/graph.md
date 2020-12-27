@@ -25,4 +25,17 @@
 - 0 means theres no edge or relationship
 - 1 means there is a relationship
 
- 
+ # traversal
+ - depth first goes deep first
+    - uses a stack or recursion
+ - breadth first means inside out
+    - uses queues
+    - find levels away
+    - goes level by level
+
+    # time
+    O(v+e)
+    space:
+    O(v)
+
+    
