@@ -57,3 +57,4 @@ c --> a --> b
 - We traverse neighbors instead of left and right
 - We keep track of the things we have seen.
 - Set is O(1)
+- set is a hash masp that just stores the keys
