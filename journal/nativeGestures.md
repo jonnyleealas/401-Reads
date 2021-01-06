@@ -7,4 +7,4 @@
 # TouchableHiglight and Touchable
 - A view can become a responder by implementing the correct negotiation methods. 
     - View.props.onStartShouldSetResponder: (evt) => true, - Does this view want to become responder on the start of a touch?
-    -View.props.onMoveShouldSetResponder: (evt) => true, - Called for every touch move on the View when it is not the responder: does this view want to "claim" touch responsiveness?
+    -View.props.onMoveShouldSetResponder: (evt) => true, - Called for every touch move on the View when it is not the responder: does this view want to "claim" touch    responsiveness?
