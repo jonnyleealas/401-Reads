@@ -1,0 +1,1 @@
+Spreads arrays, objects, strings, numbers, into separate arguments.
