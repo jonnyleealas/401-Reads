@@ -4,4 +4,9 @@
 - Its a system of how to compare code based on time and space.
 - Helps find the best solution.
 - Helps discuss trade-offs between solutions.
-- 
+
+# snippets
+- inspect
+- sources
+- snippets
+- save code for reuse in your browser.
