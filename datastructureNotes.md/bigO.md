@@ -14,3 +14,24 @@
 # Takes time
 - every operation takes memory
 - an operation is as simple as a letter or number on the screen.
+
+# Big o
+- relationship of input size and time
+- if n grows how does the time change
+```
+f(n) = function with an input of n
+
+```
+
+# linear
+- As n scales the runtime scales
+# quadratic
+- As n grows the runtime is related to the square of n
+```
+f(n)= nˆ2
+```
+# constant
+- As n grows runtime stays the same
+```
+f(n)= 1
+```
