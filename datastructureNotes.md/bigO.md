@@ -32,6 +32,7 @@ f(n)= nˆ2
 ```
 # constant
 - As n grows runtime stays the same
+- when there is a definite limit to the number of operations its probably constant.
 ```
 f(n)= 1
 ```
