@@ -10,3 +10,7 @@
 - sources
 - snippets
 - save code for reuse in your browser.
+
+# Takes time
+- every operation takes memory
+- an operation is as simple as a letter or number on the screen.
