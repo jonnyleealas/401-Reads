@@ -36,3 +36,10 @@ f(n)= nˆ2
 ```
 f(n)= 1
 ```
+
+# Space
+- This is concerning only the algorithm
+- Boolean, numbers, undefined, mull are all constant
+- strings are O(n)
+- arrays and objects are O(n)
+-
