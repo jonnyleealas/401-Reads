@@ -61,4 +61,6 @@ the Log of 8 is 3 or log(8) = 3
 ```
 - Log(n) is linear is FANTASTIC but not as FANTASTIC as O(1)
 - O(nˆ2) is bad
-
+- searching algorithms have log time complexity
+- efficient sorting algorithms involve log.
+- Recursion sometimes involves log space complexity
