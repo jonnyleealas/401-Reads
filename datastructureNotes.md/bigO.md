@@ -64,3 +64,4 @@ the Log of 8 is 3 or log(8) = 3
 - searching algorithms have log time complexity
 - efficient sorting algorithms involve log.
 - Recursion sometimes involves log space complexity
+- Big O test algorithm not hardware.
