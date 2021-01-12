@@ -42,4 +42,23 @@ f(n)= 1
 - Boolean, numbers, undefined, mull are all constant
 - strings are O(n)
 - arrays and objects are O(n)
--
+- for loop if O(1)
+
+# Logarithms
+- Not O(1) or O(nˆ2) basically not simple
+- Its the inverse of exponentiation
+```
+logˇ2(8)= 3 this is asking 2 to what power equals 8. 
+2ˆ3 = 8 there for our answer is 3 because 2 to the power of 3 equals 8. 
+```
+- log of a number roughly measure the number of times you can divide that number by 2 before you get a value thats less than or equal to one.
+```
+8 / 2
+4 / 2
+2 / 2
+1
+the Log of 8 is 3 or log(8) = 3
+```
+- Log(n) is linear is FANTASTIC but not as FANTASTIC as O(1)
+- O(nˆ2) is bad
+
