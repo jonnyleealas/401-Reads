@@ -63,4 +63,91 @@ Don't just dive in. Take time and understand. Before everything and make sure wh
             - if its space, period etc do nothing
             - return obj at end
             
-3. Solve or simplify
+4. Solve or simplify:  Solve a simpler problem. Try to ignore the part that is giving me a hard time and work on what you can make progress on.
+    - Helps gain insight on how to solve the problem.
+    - find core difficulty
+    - ignore di
+    - write simplified solution
+    - incorporate difficulty again
+    - Im not sure how to do this do you have any suggestions
+5. Refactor: Once you solve it go back and refactor it. This will improve youre code.
+    - Can i arrive to a result differently?
+    - Can I check the result?
+    - Can i understand it at a glance?
+    - Can I use this result to solve another problem?
+    - Can I improve the performance?
+    - How have other people solved this problem?
+    - Its worth looking at other implementations.
+    - Compare others code to yours.
+    - Use a for of instead of a for loop for better esthetics.
+    ```
+    fn charCount(str){
+        var obj = {}
+        for(var char of str){
+            char = char.toLowerCase()
+            if(/[a-z0-9]/.test(char)){
+                if(obj[char]>0){
+                    obj[char]++
+                }else{
+                    obj[char]=1;
+                }
+            }
+        }
+        return obj
+    }
+
+The above could be written as 
+    fn charCount(str){
+        var obj ={}
+        for(var char of str){
+            char = char.toLowerCase()
+            if([/a-z0-9]/.test(char)){
+                obj[char]= ++obj[char]|| 1
+            }
+        }
+        return obj;
+    }
+    
+    ```
+
+# Recap
+- Understand problem
+- Explore Examples
+- Break it Down into steps or pseudo code
+- Solve/Simply try and solve something and then come back to the hard part. 
+- Look back and refactor. This is most important for learning.
+    
+# How To Improve?
+- Devise a plan for solving problems?
+- Master common problem solving patterns.
+
+# Patterns
+- Frequency Counter
+- Multiple Pointers
+- Sliding Windows
+- Divide and Conquer
+- Dynamic Programming
+- Greedy Algorithm
+- Backtracking
+
+## Frequency Counter
+- Use an object to collect values and frequency
+- similar values
+- if a value is contained in a value
+- comparing certain data
+- usually O(n)
+- frequency meaning how frequent
+- ** means exponent
+
+## Multiple Pointers
+
+## Sliding Windows
+
+## Divide and Conquer
+
+## Dynamic Programming
+
+## Greedy Algorithm
+
+## Backtracking
+
