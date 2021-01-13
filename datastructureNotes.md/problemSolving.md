@@ -138,6 +138,12 @@ The above could be written as
 - usually O(n)
 - frequency meaning how frequent
 - ** means exponent
+- Anagrams compare whether letters occur in a different order. Ask whether there will be number, upper or lowercase, more words or just one.
+    - if the lengths dont match then false.
+    - if its in the obj add 1 if its not in the object we set the object to array index 1.
+    - when checking array 2 we subtract 1 from the object.
+    - if the letter is not there we return false.
+
 
 ## Multiple Pointers
 
