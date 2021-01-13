@@ -146,8 +146,37 @@ The above could be written as
 
 
 ## Multiple Pointers
+- Creating pointers or values that correspond to an index or position and move towards the beginning, end or middle based on certain condition.
+- Very efficient for solving problems with minimal space complexity as well.
+- We can use them in arrays, string , linked list.
+- We use two references. 
+- Creating pointer means creating a variable.
+    - Approach to sumZero
+    - Use two pointers to test conditions
+    - start one pointer at 0 and the other and 0 + 1 index.
+        - A faster solution
+        - in an ordered array we could set a pointer at index 0 to move through the list while another pointer starts at the end of the list toward the first pointer.
+        ```
+        fn sumZero(){
+            let left = 0;
+            let right = arr.length -1
+            while(left < right){
+                let sum = arr[left] + arr[right]
+                if(sum === 0){
+                    return [arr[left], arr[right]]
+                }else if( sum > 0){
+                    right--
+                }else{
+                    left++
+                }
+            }
+            return undefined
+        }
 
+
+        ```
 ## Sliding Windows
+
 
 ## Divide and Conquer
 
