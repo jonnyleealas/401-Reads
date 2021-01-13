@@ -65,3 +65,28 @@ the Log of 8 is 3 or log(8) = 3
 - efficient sorting algorithms involve log.
 - Recursion sometimes involves log space complexity
 - Big O test algorithm not hardware.
+
+# Objects
+- unordered ds stored in key value pairs
+- use when we dont need order
+- constant time insertion,retrieve, removal, search(n), and access
+- Hashmaps are how objects work behind the scene.
+- can hold string, boolean, array.
+- no beginning or end.
+- un ordered
+
+# Arrays
+- More variation than objects.
+- Ordered 
+- can store strring, boolean, obj, array, number
+- only use when we need order, but other ds may be better for this.
+- access is O(1) because all we need is an index.
+- insertion at the end is constant O(1) fast
+- insertion at the beginning is slow. we need to re-index everything in the array. O(n) or once for every single element.
+- removing from the beginning is also a re-index of everything so its O(n) for every single element.
+- Searching is O(n)
+
+# Array Methods
+- push O(1), pop O(1), shift O(n), unshift O(n), concat O(n), slice O(n), splice O(n), sort O(n*log n),
+forEach/map/filter/reduce/etc O(n)
+- sort is more complicated and is more than O(n) so its O(n*log n)
