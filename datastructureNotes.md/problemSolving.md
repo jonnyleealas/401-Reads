@@ -175,11 +175,93 @@ The above could be written as
 
 
         ```
-## Sliding Windows
+
+        - countUniqueValues
+            - Takes a sorted array
+            - counts all unique values and returns how many unique values there are in an array.
+            ```
+            fn countUniqueValues(arr){
+                //this i is a counter at the end we return the count and it gives us how many unique values we have.
+                let i = 0
+                for(let j=1; j< arr.length; j++){
+                    if(arr[i]!== arr)[j]{
+                        //this moves i + 1
+                        i++
+                        // this move j to the i position
+                        arr[i]=arr[j]
+                    }
+                    //do get the number of unique values we can return our counter of i. However i started at index 0. If we just return i it will give us an index of 6. We need to add 1 to add the correct number of unique numbers.
+                    return i + 1
+                }
+            }
+
+
+
+            ```
+## Sliding Windows or sub array
+- This pattern involves creating a window which can either be an array or number from one position to another. Depending on a certain condition, th window either increase or closes(and a new window is created). Very useful for keeping track of a subset of data in an array/string etc.
+- It can be var, sub array, or string and we move that window depending on condition.
+- can move from left to right or start at the center etc.
+- Used to keep track and find a subset of data in a larger set of data.
+    - MaxSubarraySum
+        - start at the first index and count n spaces to the right. Add those number. Then keep doing that till we reach the end. 
+        - Return maxSubArraySum.
+        ```
+        fn maxSubarraySum(arr,num){
+            // if num is greater than the amount of things in the array stop.
+            if(num>arr.length){
+                return null
+            }
+            let max = -Infinify;
+            for(let i = 0; i < arr.length - num + 1; i++){
+                //temp stores our sum
+                temp = 0
+                // this second loop adds the numbers
+                for(let j = 0; j< num; j++){
+                temp += arr[i +j]
+                }
+                if( temp>max){
+                    max = temp
+                }
+            }
+          
+        return max;
+        }
+
+
+
+
+        ```
+        - Sliding window approach to the above code
+        ```
+        fn maxSubarraySum(arr, num){
+            let maxSum= 0
+            let tempSum= 0
+            if(arr.length < num) return null
+            for(let i = 0; i < num; i++){
+                maxSum += arr[i]
+            }
+            tempSum = maxSum;
+            for(letr i = num; i < arr.length; i++){
+                tempSum = tempSum - arr[i - num]+ arr[i]
+                maxSum = Math.max(maxSum, tempSum)
+            }
+            return maxSum
+        }
+
+
+
+
+        ```
+
 
 
 ## Divide and Conquer
-
+- This pattern involves dividing a data set into smaller chunks and then repeating a process with a subset of data.
+- This pattern can tremendously decrease time complexity.
+- Binary search, Sorting, Searching.
+- We can take an array and we divide into smaller pieces. 
+- 
 ## Dynamic Programming
 
 ## Greedy Algorithm
