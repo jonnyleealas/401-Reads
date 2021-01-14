@@ -261,6 +261,18 @@ The above could be written as
 - This pattern can tremendously decrease time complexity.
 - Binary search, Sorting, Searching.
 - We can take an array and we divide into smaller pieces. 
+## Recursion
+- Different way of thinking about finding solutions.
+- Taking one problem over and over and doing it on a smaller piece of that problem.
+- Two things have to be done.
+- Call stack.
+- Chrome dev tools to debug call stack.
+- Helper method recursion and pure recursion to solve more difficult problems.
+- Recursion is a function that calls itself.
+- Invoke the same function with a different input until you reach the base case.
+- Base case is where recursion stops. This is THE MOST IMPORTANT THING TO REMEMBER IN RECURSION.
+- BASE CASE(END OF LINE) & DIFFERENT INPUT EACH TIME.
+- Recursion is basically a call stack.
 - 
 ## Dynamic Programming
 
