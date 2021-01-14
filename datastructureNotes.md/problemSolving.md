@@ -274,9 +274,17 @@ The above could be written as
 - BASE CASE(END OF LINE) & DIFFERENT INPUT EACH TIME.
 - Recursion is basically a call stack.
 - 
-## Dynamic Programming
+## Trees
+- Trees, binary search trees.
+- Parent/ Child relationship
+- Branches
+- Lists are linear in a line in a row.
+- Trees are non linear they can have many different paths to take. 
+- Singly linked list are simple case for a tree. Special case of a tree.
+- A child pointing to a parent is graph not a tree. 
+- Every node edge must point down and only have 1 root.
+- siblings are nodes that have the same parents. 
+- Leaf node with no children.
+- Html dom is a tree, network routing, Abstract syntax trees.
 
-## Greedy Algorithm
-
-## Backtracking
 
