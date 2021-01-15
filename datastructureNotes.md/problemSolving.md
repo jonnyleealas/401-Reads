@@ -318,4 +318,19 @@ start at root
             if no, add node to the right position.
 
 ```
+## BST finde node
+- Start at root
+    - is there a root. 
+    - no? stop search is over
+    - yes? is the root the element?
+    - yes? return element
+    - no? is value > or <
+    - if >
+        - is there a node.right?
+        - if yes move to the right node and repeat steps
+        - no? we're done searching
+    - is it is <
+        - is there a node to the left?
+        - if yes go to the left node and repeat these steps
+        - if no stop search we are done
 
