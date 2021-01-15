@@ -333,4 +333,25 @@ start at root
         - is there a node to the left?
         - if yes go to the left node and repeat these steps
         - if no stop search we are done
+## Tree traversal
+- BFS, DFS, 
+- BFS
+    - Start at root and work across the tree
+- DFS
+    - Going down then going back up
+        - in order
+        - preOrder
+        - post order
+### Breadth First Search
+- Use a queue, list, or array.
+- push to add, shift to remove from beginning 
+- queue to keep track
+- build a list of data to return
+    - take root and add to queue
+    - loop as long as there is anything in the queue
+        - dequeue a node from the queue and push the value of the node into the variable that stores the nodes.
+        - if there is a left property on the node dequeue  add it to the queue
+        - if there is aright property onb the the node dequeue -add it to the queue
+        - return the variable that stores our values
+
 
