@@ -318,7 +318,7 @@ start at root
             if no, add node to the right position.
 
 ```
-## BST finde node
+## BST find node
 - Start at root
     - is there a root. 
     - no? stop search is over
