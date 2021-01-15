@@ -353,5 +353,7 @@ start at root
         - if there is a left property on the node dequeue  add it to the queue
         - if there is aright property onb the the node dequeue -add it to the queue
         - return the variable that stores our values
+        - the queue is used to remember if there is a left or a right. It will pop the left first and check to see if it has a left or a right. then it will pop the right and check if it has a left or a right. The queue helps us keep track of whether there is a left or a right. Then it tells us, "this was the first thing we looked out, so now lets go there and make some more checks.'
+        - each time a node is popped off the queue, it is then added to visited array.
 
 
