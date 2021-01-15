@@ -357,3 +357,14 @@ start at root
         - each time a node is popped off the queue, it is then added to visited array.
 
 
+### DFS
+- Pre, post, 
+    - Pre
+        - create a variable
+        - create current
+        - write helper function which takes a node
+            - push val to store
+            - if node has a left recursive call helper
+            - if right recursive call helper function
+        - invoke helper function with current var
+        - return the array of values
