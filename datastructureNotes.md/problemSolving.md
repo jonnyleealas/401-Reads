@@ -175,14 +175,162 @@ The above could be written as
 
 
         ```
-## Sliding Windows
+
+        - countUniqueValues
+            - Takes a sorted array
+            - counts all unique values and returns how many unique values there are in an array.
+            ```
+            fn countUniqueValues(arr){
+                //this i is a counter at the end we return the count and it gives us how many unique values we have.
+                let i = 0
+                for(let j=1; j< arr.length; j++){
+                    if(arr[i]!== arr)[j]{
+                        //this moves i + 1
+                        i++
+                        // this move j to the i position
+                        arr[i]=arr[j]
+                    }
+                    //do get the number of unique values we can return our counter of i. However i started at index 0. If we just return i it will give us an index of 6. We need to add 1 to add the correct number of unique numbers.
+                    return i + 1
+                }
+            }
+
+
+
+            ```
+## Sliding Windows or sub array
+- This pattern involves creating a window which can either be an array or number from one position to another. Depending on a certain condition, th window either increase or closes(and a new window is created). Very useful for keeping track of a subset of data in an array/string etc.
+- It can be var, sub array, or string and we move that window depending on condition.
+- can move from left to right or start at the center etc.
+- Used to keep track and find a subset of data in a larger set of data.
+    - MaxSubarraySum
+        - start at the first index and count n spaces to the right. Add those number. Then keep doing that till we reach the end. 
+        - Return maxSubArraySum.
+        ```
+        fn maxSubarraySum(arr,num){
+            // if num is greater than the amount of things in the array stop.
+            if(num>arr.length){
+                return null
+            }
+            let max = -Infinify;
+            for(let i = 0; i < arr.length - num + 1; i++){
+                //temp stores our sum
+                temp = 0
+                // this second loop adds the numbers
+                for(let j = 0; j< num; j++){
+                temp += arr[i +j]
+                }
+                if( temp>max){
+                    max = temp
+                }
+            }
+          
+        return max;
+        }
+
+
+
+
+        ```
+        - Sliding window approach to the above code
+        ```
+        fn maxSubarraySum(arr, num){
+            let maxSum= 0
+            let tempSum= 0
+            if(arr.length < num) return null
+            for(let i = 0; i < num; i++){
+                maxSum += arr[i]
+            }
+            tempSum = maxSum;
+            for(letr i = num; i < arr.length; i++){
+                tempSum = tempSum - arr[i - num]+ arr[i]
+                maxSum = Math.max(maxSum, tempSum)
+            }
+            return maxSum
+        }
+
+
+
+
+        ```
+
 
 
 ## Divide and Conquer
+- This pattern involves dividing a data set into smaller chunks and then repeating a process with a subset of data.
+- This pattern can tremendously decrease time complexity.
+- Binary search, Sorting, Searching.
+- We can take an array and we divide into smaller pieces. 
+## Recursion
+- Different way of thinking about finding solutions.
+- Taking one problem over and over and doing it on a smaller piece of that problem.
+- Two things have to be done.
+- Call stack.
+- Chrome dev tools to debug call stack.
+- Helper method recursion and pure recursion to solve more difficult problems.
+- Recursion is a function that calls itself.
+- Invoke the same function with a different input until you reach the base case.
+- Base case is where recursion stops. This is THE MOST IMPORTANT THING TO REMEMBER IN RECURSION.
+- BASE CASE(END OF LINE) & DIFFERENT INPUT EACH TIME.
+- Recursion is basically a call stack.
+- 
+## Trees
+- Trees, binary search trees.
+- Parent/ Child relationship
+- Branches
+- Lists are linear in a line in a row.
+- Trees are non linear they can have many different paths to take. 
+- Singly linked list are simple case for a tree. Special case of a tree.
+- A child pointing to a parent is graph not a tree. 
+- Every node edge must point down and only have 1 root.
+- siblings are nodes that have the same parents. 
+- Leaf node with no children.
+- Html dom is a tree, network routing, Abstract syntax trees, artificial intelligence, computer files.
 
-## Dynamic Programming
+## Binary search tree
+- each node can have at most 2 children
+- it cannot have three.
+- these are kept in an order.
+- These are special case binary trees.
+- BST used to store data to compare or can be compared.
+- Which is greater or less.
+- Less than are always left
+- Greater are always to the right.
+- Binary tree is not sorted but binary search is sorted.
+- Search, Delete, Insert O(Log n)
+- Space O(n) Worst Case O(n)
+- Root is the most important.
+- It only has a left or a right.
+- Constructor has: value, left, right.
+```
+Create new node
+start at root
+    is there a root
+    if not number becomes new root
+    if yes, is number > or < than root
+    if >
+        is there a node to the right?
+            if yes move to the right and check > or <
+            if no, add node to the right
+    if less than
+        is there a left node
+            if yes move there and repeat above steps
+            if no, add node to the right position.
 
-## Greedy Algorithm
-
-## Backtracking
+```
+## BST find node
+- Start at root
+    - is there a root. 
+    - no? stop search is over
+    - yes? is the root the element?
+    - yes? return element
+    - no? is value > or <
+    - if >
+        - is there a node.right?
+        - if yes move to the right node and repeat steps
+        - no? we're done searching
+    - is it is <
+        - is there a node to the left?
+        - if yes go to the left node and repeat these steps
+        - if no stop search we are done
 
