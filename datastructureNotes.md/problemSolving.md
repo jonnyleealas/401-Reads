@@ -318,7 +318,7 @@ start at root
             if no, add node to the right position.
 
 ```
-## BST find node
+## BST find node O(log n)
 - Start at root
     - is there a root. 
     - no? stop search is over
@@ -333,4 +333,84 @@ start at root
         - is there a node to the left?
         - if yes go to the left node and repeat these steps
         - if no stop search we are done
+## Tree traversal
+- BFS, DFS, 
+- BFS
+    - Start at root and work across the tree
+- DFS
+    - Going down then going back up
+        - in order
+        - preOrder
+        - post order
+### Breadth First Search
+- Use when space complexity is not wide
+- Use a queue, list, or array.
+- Horizontal
+- push to add, shift to remove from beginning 
+- queue to keep track
+- build a list of data to return
+    - take root and add to queue
+    - loop as long as there is anything in the queue
+        - dequeue a node from the queue and push the value of the node into the variable that stores the nodes.
+        - if there is a left property on the node dequeue  add it to the queue
+        - if there is aright property onb the the node dequeue -add it to the queue
+        - return the variable that stores our values
+        - the queue is used to remember if there is a left or a right. It will pop the left first and check to see if it has a left or a right. then it will pop the right and check if it has a left or a right. The queue helps us keep track of whether there is a left or a right. Then it tells us, "this was the first thing we looked out, so now lets go there and make some more checks.'
+        - each time a node is popped off the queue, it is then added to visited array.
 
+
+### DFS Order
+- use with wide space complexity
+- vertical
+- Pre, post, 
+    - Pre
+    - Pre is always visit the node, check entire left and then entire right.
+    - We add the parent then add the children to our data []
+        - create a variable
+        - create current
+        - write helper function which takes a node
+            - push val to store
+            - if node has a left recursive call helper
+            - if right recursive call helper function
+        - invoke helper function with current var
+        - return the array of values
+            - we call the function
+            - push root node into array
+            - if theres a left we call cursive
+            - we push that node in array
+            - is there a left on that node
+            - if not go to the right
+            - if there is a right we call recurse
+            - is there a left 
+            - this continues till it goes through everything.
+            - after we have done all this to 6 left side children we check if there is a right and to it all over again.
+            - recursion is all about the call stack.
+    - Post
+    - Post visit node after left and right
+    - start at root but not visit
+    - go all the way to the left
+    - go all the way to the right
+    - basically add the children then the parent.
+    - we explore children before the parent.
+        - Create a variable to store the values of nodes visited.
+        - store the root of the BST in a variable called current
+        - write helper function which accepts a node
+            - if the node has a left property, call the helper function with left prop on node
+            - if there is a right property, call the helper function with the right property on the node.
+            - push the value of the node to the variable that h stores the values
+            - invoke the helper function with the current variable
+    - InOrder
+    - start at root
+    - traverse all of left then visit parent
+        - Create a variable for data visited
+        - store root in current variable
+        - write a helper function which takes a node
+            - if the node has a left property, call the helper function with the left property on the node
+            - push the value of the node to the variable that stores the values
+            - if the node has right property, call the helper function with right property on the node
+        - invoke the helper function with the current variable.
+
+    ## Pre, post , Inorder
+    - When I want in order use in order
+    - When I want to store in a file and recreate i can use PreOrder. It helps reconstruct a tree if needed.
+    - When I want to 
