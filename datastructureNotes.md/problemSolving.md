@@ -285,6 +285,37 @@ The above could be written as
 - Every node edge must point down and only have 1 root.
 - siblings are nodes that have the same parents. 
 - Leaf node with no children.
-- Html dom is a tree, network routing, Abstract syntax trees.
+- Html dom is a tree, network routing, Abstract syntax trees, artificial intelligence, computer files.
 
+## Binary search tree
+- each node can have at most 2 children
+- it cannot have three.
+- these are kept in an order.
+- These are special case binary trees.
+- BST used to store data to compare or can be compared.
+- Which is greater or less.
+- Less than are always left
+- Greater are always to the right.
+- Binary tree is not sorted but binary search is sorted.
+- Search, Delete, Insert O(Log n)
+- Space O(n) Worst Case O(n)
+- Root is the most important.
+- It only has a left or a right.
+- Constructor has: value, left, right.
+```
+Create new node
+start at root
+    is there a root
+    if not number becomes new root
+    if yes, is number > or < than root
+    if >
+        is there a node to the right?
+            if yes move to the right and check > or <
+            if no, add node to the right
+    if less than
+        is there a left node
+            if yes move there and repeat above steps
+            if no, add node to the right position.
+
+```
 
