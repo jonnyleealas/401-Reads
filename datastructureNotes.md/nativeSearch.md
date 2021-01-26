@@ -15,7 +15,16 @@
     function nativeSearch(array, match){
         for(let i = 0; i < array.length; i++){
          for(let j = 0; j< match.length; j++){
+             // array[i+j] means that we are looking one position ahead of i in the loop.
              if(match[j] !== array[i+j]) break
          }
         }
     }
+
+# Sorting
+- Rearancing the items in a collectionso the items are in some kind of order.
+- Assending or descending
+- names alphabetically
+- sorting movies based on revenue
+- soreting movies based on release year
+- 
