@@ -115,7 +115,7 @@ Example of pseudo
 
 # sliding window
     - Set of data looking for a subset of that data 
-    - a subset of data that is contigues
+    - a subset of data that is continues
     - we make a window that is a variable or a sub array.
         - maxSubArray
 # divide and conquer
