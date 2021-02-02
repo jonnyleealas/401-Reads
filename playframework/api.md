@@ -111,3 +111,77 @@ akka.log-config-on-start = on
 
 
 ```
+
+# Creating a Thread Pool
+```
+Java provides the Executor framework which is centered around the Executor interface, its subinterface- ExecutorService and the class- ThreadPoolExecutor, which implements both of these interfaces. By using the executor, one only has to implement the Runnable objects and send them to the executor to execute.
+
+The allow you to take advantage of threading, but focus on the tasks that you want the thread to perform, instead of thread mechanics.
+
+To use thread pools, we first create a object of ExecutorService and pass a set of tasks to it. ThreadPoolExecutor class allows to set the core and maximum pool size. The runnables that are run by a particular thread are executred sequenctially.
+
+```
+
+# What is a rest api?
+```
+- Representational state transfer
+Shows quantity of ice cream flavors available and allows to make updates the quantity.
+They are all about communication.
+they are restful
+Benefits are that they are simple an standardized  way of communication.
+Scalable and stateless
+High performance
+End point: http://icecream.com/api/flavors flavors are knows as resource
+Request -> client to server
+Response -> received back from server
+```
+# Request
+Operation and endpoint, parameters/body, Headers(api key, authentication)
+Get is the operation
+EndPoint are the flavors
+
+Update: Will replace flavors. For this we will use the put method. 
+Endpoint will be /flavors/1 to indicate id of 1
+Parameter /body will look like: {"flavor": "chocolate"}
+
+Response: will show the param/body with the updated data 
+{ "id":1,
+"flavor": "chocolate"}
+
+To Create: We will use post method. Endpoint /flavors
+param/body: {"flavor": "restful rasberry"}
+
+Response: will show the created new flavor data
+{"id": 2,
+"flavor": "restful rasberry"}
+# Response
+Generally JSON data
+# HTTP METHODS are crud methods used in API
+Post(create), Get(read), Put(update or replace), Delete
+
+```
+GET request retrieves data from a resource. You'd use a GET request to retrieve a record from a database.
+
+POST request creates a new resource, such as a new record in a database.
+
+PUT request updates an existing resource.
+
+DELETE request deletes a resource.
+
+Endpoint: HTTP requests depend on a particular URL. You also need to determine the path or the resource you're requesting.
+
+Identify your Header: If a REST API  request is like sending a letter, think of headers as the envelope containing valuable information for the person receiving it. In this case, the header could have details that help explain what will be in the "body" conten of the request or, perhaps, important info about auth. 
+
+Determine if you need message data: If your requirements include sending speciic information to the server this becomes what is sometimes referred to as the "body" of you requests.
+
+
+```
+# Java REST API 
+```
+Java and REST APIs can be used to create an order processing system. Get would help fetch a list of all orders currently in process, or PUT request could be used to add an existing order. Of course, customers sometimes cancel their orders, which is where DELETE would be the appropriate request to use.
+
+
+```
+
+# CRUD  
+Create, Read, Update, Delete
