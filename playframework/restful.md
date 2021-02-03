@@ -41,3 +41,13 @@ Play was build for both SCALA AND JAVA users.
 
 
 ```
+
+# Play using Java
+```
+Play has packages for both scala and java. All java packages are under the play package. All scala packages are under the play.api packages. 
+
+Java MVC API is under play.mvc.
+Scala MVC API is under play.api.mvc.
+
+
+```
