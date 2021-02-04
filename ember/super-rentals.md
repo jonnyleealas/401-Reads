@@ -53,3 +53,29 @@ Templates describe how a user interface looks, components conterol how the user 
 Hooks are methods that are automatically called within the Ember app. Thers are methods that can be expected to be called automatically, rather than having to call them specifically.
 Ex: willRender(), or Route Hooks: model()
 didRender() can be used to console.log(a message to show it rendered)
+
+# Route
+Ember route is build in three parts: 
+An entry ni the app/router.js which maps between our route name and specific URI
+A route handler file which sets up what should happen when that route is loaded.
+A route template which is where we display the actual content for th page.
+
+# BeforeModel
+This hook gets executed before the data gets fetched from the model hook and before the page is rendered. 
+Each route handler has a set of "lifecycle hooks".
+Lifecycle hooks are functions that are invoked at specific times during the loading of a page. 
+
+# Index Route
+Index route does not require an entry in the routers mapping. Ember does something special to index routes. 
+
+# replaceWith hook
+This is a hook that replaces the current UTL in the browser's history, while transitionTo will ad to the history. 
+
+# Model
+Ember keeps data for a page in an object called a model. 
+There is a library called Ember Data that allows us to robustly manage data.
+The model function acts as a hook, meaning that ember will call it for us during different times in our app. 
+In Ember, route handlers are responsible for loading the model with data for the page. The model function we've added to our rentals route handler will be called when a user navigates to the rentals route via root URL.
+
+# How templates use models
+A template takes the model and renders it using html handlebar elements. The model is where all of our object data is held for specific templates. If the model is called rentals then we can use the model in the template component called rental. Ember automatically generates a route, template component, and adds the path to our app router.
