@@ -79,3 +79,27 @@ In Ember, route handlers are responsible for loading the model with data for the
 
 # How templates use models
 A template takes the model and renders it using html handlebar elements. The model is where all of our object data is held for specific templates. If the model is called rentals then we can use the model in the template component called rental. Ember automatically generates a route, template component, and adds the path to our app router.
+
+# What are Ember Addons
+Addons provide a wide range of functionality to projects, often saving time and letting you focus on you rproject.
+Ember Observer website has a list of addons usable in Ember.
+
+# Ember cli tutorial style
+This cli instantly adds css classes we can use instead of writing css from scratch.
+We generate a file called ember-tutorial.css and put the file in vendor directory.
+
+# Vendor directory 
+The vendor directory in Ember is special directory where you can include content that gets compled into you application.
+As Ember CLI runs, it takes the ember-tutorial css file and puts it in afile called vendor.css. The vendor.css file is referenced in app/index.html, making the styles available at runtime.
+
+# ember-cli-mirage
+Mirage is a client HTTP stubbing library often used for Ember app testing. Fof th ecase of this mirage we'll use mirage as our source of data rather than a traditional backend server. Mirage will allow us to create fake data to work with while developing our app and mimic an API. The data and endpoints we setup here will come into play in the tutorial, when we use Ember Data to make server requests.
+
+# Adapter 
+An adapter is an object that ember data uses to determine how we communicate with our backend. We tell the adapter to tell the application to send its requests to the /api namespace by default. 
+
+# Components
+Ember g component name-component
+A component consists of two parts:
+A template that defines how it will looks
+A js source file that defines how it will behave.
