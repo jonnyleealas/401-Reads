@@ -93,3 +93,9 @@ If the store already knew about a record the request never passes the store. The
 
 # Store Service
 The store sercie is injecte into all roues and their corresponding controller in Ember. It is the main interface you use to interact with Ember Data. In this cas, call the findall funcrtion on th store and privide it with the name of you newmly created rental model class.
+
+# Controller
+Controllers conatain actions and properties available to the template of its corresponding route.
+
+# What a component generate renders?
+javascript file, template , and test file.
