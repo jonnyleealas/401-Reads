@@ -1,0 +1,1 @@
+I can modify passwords in mysql by going into the mysql database. From there I can update the passwords and also update the length that a password can be and the level of complexity that the password can be.
