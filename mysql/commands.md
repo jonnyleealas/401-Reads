@@ -14,3 +14,28 @@ SHOW COLUMNS FROM table_name = shows you everything inside the table according t
 
 DROP TABLE table_name = deletes table
 
+INSERT INTO table_name = this is how you add data to a table. You can add multiple values at the same time EX: values(f,d,g,), (d,f,g,), (dk,d,s,);
+
+
+SHOW WARNINGS = shows any warnings that are prompted in the terminal.
+
+INT NOT NULL = means thats we are not permitting an int to be null. and int must be added to values when inserting values into a table. Doing so without an int will cause a warning in cli.
+
+CREATE TABLE employees
+(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    last_name VARCHAR(100) NOT NULL,
+    first_name VARCHAR(100) NOT NULL,
+    middle_name VARCHAR(100),
+    age INT NOT NULL,
+    current_status VARCHAR(100) NOT NULL DEFAULT 'employed'
+);
+INSERT INTO employees
+(
+    last_name,
+    first_name,
+    middle_name,
+    age,
+    current_status
+)
+VALUES('lee','jon','none',34,'unemployed'),('jason','alexander','none',12,'unemployed'), ('sandee','james','none',12,'unemployed');
