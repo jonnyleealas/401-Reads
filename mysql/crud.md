@@ -84,3 +84,10 @@ UPDATE cats SET breed='shorthair'
 WHERE breed='tabby';
 
 - Set is how we set what we are changing. SET name='jon' where name='tabby'; will set tabbys name to jon.
+
+# DELETE
+Destroy data in a table or database.
+
+DELETE FROM cats WHERE name='egg';
+
+DELETE FROM cats; THIS COMMAND WILL DELETE EVERYTHING IN CATS EXCEPT THE TABLE STRUCTURE. 
