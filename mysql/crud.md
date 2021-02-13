@@ -91,3 +91,39 @@ Destroy data in a table or database.
 DELETE FROM cats WHERE name='egg';
 
 DELETE FROM cats; THIS COMMAND WILL DELETE EVERYTHING IN CATS EXCEPT THE TABLE STRUCTURE. 
+
+
+CREATE DATABASE shirts_db
+
+CREATE TABLE shirts
+(
+    shirt_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    article VARCHAR(100) NOT NULL,
+    color  VARCHAR(100) NOT NULL,
+    shirt_size VARCHAR(1) NOT NULL,
+    last_worn INT
+)
+INSERT INTO shirts(
+    article, 
+    color, 
+    shirt_size, 
+    last_worn
+)
+VALUES
+('t-shirt','white','s',10),
+('t-shirt','white','s',10),
+('t-shirt','green','s',200),
+('polo shirt','black','M',10),
+('tank top','blue','s',50),
+('t-shirt','pink','s',0),
+('polo shirt','red','m',5),
+('tank top','white','s',200),
+('tank top','blue','m',15);
+
+SELECT article, color, shirt_size, last_worn FROM shirts WHERE shirt_size='m';
+
+ UPDATE shirts SET shirt_size='L' WHERE article='polo shirt';
+
+ UPDATE shirts SET shirt_size='x', color='off white' WHERE color='white';
+
+ DELETE FROM shirts WHERE article='tank top';   
