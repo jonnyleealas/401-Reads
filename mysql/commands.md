@@ -39,3 +39,11 @@ INSERT INTO employees
     current_status
 )
 VALUES('lee','jon','none',34,'unemployed'),('jason','alexander','none',12,'unemployed'), ('sandee','james','none',12,'unemployed');
+
+# Alter a Table
+ALTER TABLE table_name
+"Syntax to add a column in a table in mysql"
+ALTER TABLE table_name
+  ADD new_column_name column_definition
+    [ FIRST | AFTER column_name ];
+"Optional. It tells MySQL where in the table to create the column. If this parameter is not specified, the new column will be added to the end of the table."
