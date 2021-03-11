@@ -1,0 +1,1 @@
+When writing loops we must always add a variable that is incremented or decremented. this is how we tell the loop to stop looping. We need to do this to avoid an infinite loop that will eventually crash the program.
