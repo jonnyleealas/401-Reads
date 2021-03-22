@@ -13,3 +13,6 @@ The keyword "this" can't be used with a static method because static methods are
 Static methods and variables are associated with the whole class, not objects of the class.
 Static methods and non-static methods can interact with static variables. 
 void = means the method doesn't not return anything.
+
+# About MVC
+Model view controller are sometimes named differently according to different IDE'S.
