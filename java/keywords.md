@@ -17,3 +17,4 @@ void = means the method doesn't not return anything.
 # About MVC
 Model view controller are sometimes named differently according to different IDE'S.
 
+parent down children actions ups
