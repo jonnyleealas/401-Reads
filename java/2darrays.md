@@ -46,3 +46,12 @@ String[][] matrix = {{"[0][0]", "[0][1]", "[0][2]"},
 - To get the number of columns we use matrix[0].length
 
 # Row major and column major order
+
+# Accessing Indexes in  matrix
+Every time we add a nested array to an array we can access it by adding [] brackets.
+To access david we have to write the command as such on line 55.
+'''
+let array = [[[["jonny", [["david"]]]]]];
+array[0][0][0][1][0][0]
+
+'''
