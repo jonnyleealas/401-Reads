@@ -77,6 +77,7 @@ It was new years at red robin. Two workers were frustrated and walked out of the
 22. Why google? Give three reasons.
 I feel I can make a difference here and be someone valuable to google. I have a lot of life experiences that I feel can be helpful to google. I was homeless, my mom and dad both left me as a child and i was raised by my uncle. My mother is a lesbian so I also have lived in an lgbt house hold. Ive been to more than 15 school, and lived in a third world country. I've been a musician, toured the country, and played for thousands of people. I feel I have a lot I can share with google and way more to learn from google. 
 Lastly, There isn't a better place to learn about technology than google. If I have to be a janitor here just to get the foot in the door ill do it. Where's the mop?
+Also you are an engineering company according to google employee accounts. I want to be part of that. Netflix deals with movie, I am not interested in that.
 
 23. Tell me about a time you had to persuade somebody at work.
 We were working on a store app and we had a teammate that was refusing to allow us to try to solve a problem in a specific way. He kept shutting down our ideas and seemed afraid to try them due to the amount of time given to finish the project. I spoke with him one on one and mentioned to him that we have to at least try something. We didn't have any leads on a solution so we had to at least push to make a bit of progress. I showed him that we had 3 different ways we could go about attempting a solution. We could at least dedicate 15 min in trying to implement each solution. At the very least it would help team moral because the teammates with those ideas would feel validation that their ideas mattered.
@@ -86,3 +87,9 @@ My greatest accomplishment is becoming one of the top sellers at every restauran
 
 25. How will a role a Google help you grow your career?
 I am assuming that at Google I will have the opportunity to socialize with experts from many different fields. That is one thing that excites me the most. I am people watcher and I believe that every person you meet has something you can learn from them and vice versa. The ufc champion connor mcgregor said in an interview that he was at the beach trying to do a pull up called a muscle up. Its where you bring your chin up to the bar and go passed that all the way till your hips are and bar level. He said that he was trying for a while and couldn't figure it out. A homeless man came up to him and gave him some tips. Even though he was the most famous and rich champion in the world, he listened the man and tried the technique. It worked and he was able to preform the muscle up. That is gives insight in my philosophy when it comes to learning from people. No matter where you are in life literally anyone and everyone can teach you something. What better place to meet people like that than google?
+
+26. What is your dream job.
+Right now my dream Job is to become a Software engineer and work at pixar. However, my experience and skill level is not where I want it to be. I believe my path towards my dream job would highly benefit from this program. The more I know about the things that happen around software the better Ill be. 
+
+27. Why should I get hired?
+I can learn, I can adapt, Im interested in the job. 
