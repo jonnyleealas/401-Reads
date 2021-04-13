@@ -15,4 +15,4 @@ Intranet: Internal network inside a company accessible if you on a company's net
 Proxy server: acts as an intermediary between a company network and the internet. These help filter websites privacy and regulating access inside a company.
 
 # Accessing Remotely
-We can do this by creating an ssh server using the cli.
+We can do this by creating an ssh server using the cli....
