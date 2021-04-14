@@ -23,3 +23,6 @@ A way to share files
 # Domain name system (DNS)
 What maps human readable names to IP address.
 
+# Dynamic host configuration protoco (DHCP)
+Maps machine to IP address automatically so you don't have to do it manually.
+
