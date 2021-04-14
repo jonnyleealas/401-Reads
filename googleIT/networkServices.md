@@ -20,3 +20,6 @@ We can do this by creating an ssh server using the cli....
 # File Transfer Protocols
 A way to share files 
 
+# Domain name system (DNS)
+What maps human readable names to IP address.
+
