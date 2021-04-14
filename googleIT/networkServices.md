@@ -29,3 +29,9 @@ Maps machine to IP address automatically so you don't have to do it manually.
 # DNS 
 Domain name system
 
+# IRC 
+Communication. Internet channel relay.
+IT specialist configure all types of communication services for an enterprise; email, chat.
+
+# NFS
+Sharing files over a network
