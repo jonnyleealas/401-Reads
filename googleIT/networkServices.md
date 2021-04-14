@@ -16,3 +16,7 @@ Proxy server: acts as an intermediary between a company network and the internet
 
 # Accessing Remotely
 We can do this by creating an ssh server using the cli....
+
+# File Transfer Protocols
+A way to share files 
+
