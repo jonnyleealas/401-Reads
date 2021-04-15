@@ -23,3 +23,15 @@ A way to share files
 # Domain name system (DNS)
 What maps human readable names to IP address.
 
+# Dynamic host configuration protoco (DHCP)
+Maps machine to IP address automatically so you don't have to do it manually.
+
+# DNS 
+Domain name system
+
+# IRC 
+Communication. Internet channel relay.
+IT specialist configure all types of communication services for an enterprise; email, chat.
+
+# NFS
+Sharing files over a network
