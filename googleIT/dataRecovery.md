@@ -15,3 +15,7 @@ We administer systems.
 
 # Centralized management
 Centralized instructions for all IT services.
+
+# LDAP
+Lightweight directory access protocol.
+Used to access information in directory services like over a network.
