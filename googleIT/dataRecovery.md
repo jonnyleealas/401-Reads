@@ -59,8 +59,23 @@ Email databases, sales databases, financial spreadsheets, server configurations,
 Account for future growth and increases in data when thinking about back up.
 Local storage advantages: Its close and easy to recover. however in case of damage you could lose everything.
 Off site: Safer than onsite. Need to think about encryption and bandwidth. Must prevent un-authorized access.
+How long should you hold on to backups. 
 
 Tools: 
+    -RSYNC: file transfer utility that's designed to efficiently transfer and synchronize files between locations or computers. Supports compression and ssh. Mac has a tool called time-machine. 
 
+# Restoration Procedures
+These need to be documented so others can recover as well. Testing should of procedures is a must. Once a year or more. 
+
+# When To backup
+Differential backup: Only back up files that have changed or been created since the last back up. This way we don't store unchanging data; only the files that are changed are backed up. Infrequent full backups and frequent deferential backups. 
+Regular incremental: Only data the data that is changed in files is backed up. More efficient in space and time required.
+
+
+# Redundant array of independent disks(RAID)
+Method of taking multiple physical discs and combining them into one large virtual disk. Inexpensive. Its a data storage solution. This is not a replacement for backups.
+
+# Client Devices
+Cloud service designed for syncing: drop box, apple icloud, google drive. Getting users set up for a back up cloud system is a great way to avoid losing client data.
 
 
