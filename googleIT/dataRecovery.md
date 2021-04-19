@@ -78,4 +78,7 @@ Method of taking multiple physical discs and combining them into one large virtu
 # Client Devices
 Cloud service designed for syncing: drop box, apple icloud, google drive. Getting users set up for a back up cloud system is a great way to avoid losing client data.
 
+# The cloud
+A network made of servers placed all over the globe.
+
 
