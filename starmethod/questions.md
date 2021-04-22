@@ -93,3 +93,6 @@ Right now my dream Job is to become a Software engineer and work at pixar. Howev
 
 27. Why should I get hired?
 I can learn, I can adapt, Im interested in the job. 
+
+28. What would you like to accomplish with in the first 6 months?
+3 months will be protocol of office procedures. 3 months after will be deep diving into the actual work flow and networking.
