@@ -99,3 +99,6 @@ I can learn, I can adapt, Im interested in the job.
 
 29. What is your leadership approach?
 I'll watch the team and see which personalities are better suited for each role. If there is a role that I fit then Ill will pursue that role. I am always looking for what the team needs and how I can help fit those needs. 
+
+30. Tell me about a time when you failed.
+Easy, my music career. Although I was able to accomplish more than most musicians ultimately the main goal was not accomplished. We were not able to keep our music career going. However, I learned so much through my experience. I learned how to public speak, I learned how to set up a tour on my own that spanned several cities and states. I learned how to network. I learned the importance and value of practicing and planning. I learned how to market on social media and balance a budget. I also learned the importance of consistancy and the relationship with your customers.
