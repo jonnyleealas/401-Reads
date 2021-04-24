@@ -96,3 +96,6 @@ I can learn, I can adapt, Im interested in the job.
 
 28. What would you like to accomplish with in the first 6 months?
 3 months will be protocol of office procedures. 3 months after will be deep diving into the actual work flow and networking.
+
+29. What is your leadership approach?
+I'll watch the team and see which personalities are better suited for each role. If there is a role that I fit then Ill will pursue that role. I am always looking for what the team needs and how I can help fit those needs. 
