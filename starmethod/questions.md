@@ -108,3 +108,16 @@ I use gmail, google meet, youtube, google jamboard, google docs, google chrome, 
 
 32. Have you ever missed a deadline?
 I recently had to finish a small Crud application. I had two weeks to submit working code. Due to the snow storm a few months ago I was not able to focus on the project and hence I missed the deadline. What I did was communicate to the client that due to unforseen circumstances I was not going to meet the deadline. I asked for extra an extra week after the storm was over and we had power and water. I also kept him updated on our situation moving forward. I was able to submit working code the week after power and water came back on and the client was happy and understanding of why I missed the deadline.
+
+33. What would you do if a customer has slow internet?
+Ask if laptop or home computer.
+Check if wifi is turned on.
+Is modem turned on.
+Is router turned on.
+Are you too far away from the modem/router.
+How many devices are on your network?
+How many applications are you using?
+Try a different download rate.
+
+34. What is your work life balance?
+My limit is 12 hours a day. Thats my absolute limit. I have 4 hours of hard concentration and 4 hours of easier less mentally strenious work. I have to take at the very least 1 day off per week. I try to take 5 minute mental breaks every 2 hours to give my mind and brain a reset. Also, after I'm done working I try and do something that has nothing to do with work.
