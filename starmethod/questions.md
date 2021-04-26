@@ -101,4 +101,10 @@ I can learn, I can adapt, Im interested in the job.
 I'll watch the team and see which personalities are better suited for each role. If there is a role that I fit then Ill will pursue that role. I am always looking for what the team needs and how I can help fit those needs. 
 
 30. Tell me about a time when you failed.
-Easy, my music career. Although I was able to accomplish more than most musicians ultimately the main goal was not accomplished. We were not able to keep our music career going. However, I learned so much through my experience. I learned how to public speak, I learned how to set up a tour on my own that spanned several cities and states. I learned how to network. I learned the importance and value of practicing and planning. I learned how to market on social media and balance a budget. I also learned the importance of consistancy and the relationship with your customers.
+Easy, my music career. Although I was able to accomplish more than most musicians ultimately the main goal was not accomplished. We were not able to keep our music career going. However, I learned so much through my experience. I learned how to public speak, I learned how to set up a tour on my own that spanned several cities and states. I learned how to network. I learned the importance and value of practicing and planning. I learned how to market on social media and balance a budget. I also learned the importance of consistency and the relationship with your customers.
+
+31. What technology at google do you use?
+I use gmail, google meet, youtube, google jamboard, google docs, google chrome, google sheets. Also I am planning on learning the Go programming language.
+
+32. Have you ever missed a deadline?
+I recently had to finish a small Crud application. I had two weeks to submit working code. Due to the snow storm a few months ago I was not able to focus on the project and hence I missed the deadline. What I did was communicate to the client that due to unforseen circumstances I was not going to meet the deadline. I asked for extra an extra week after the storm was over and we had power and water. I also kept him updated on our situation moving forward. I was able to submit working code the week after power and water came back on and the client was happy and understanding of why I missed the deadline.
