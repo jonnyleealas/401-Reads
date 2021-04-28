@@ -19,3 +19,5 @@ Open source means it is not owned by a single company.
 Linux is an open source operating system.
 Pda personal digital assistants.
 
+# IT
+It extends the thinking range of not only individuals but or organizations. Data can be processed faster and decisions can be made more accurately. Mental power to process data can now be transferred over to hardware and software to do the job.
