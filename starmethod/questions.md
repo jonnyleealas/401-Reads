@@ -101,7 +101,7 @@ I can learn, I can adapt, Im interested in the job.
 I'll watch the team and see which personalities are better suited for each role. If there is a role that I fit then Ill will pursue that role. I am always looking for what the team needs and how I can help fit those needs. 
 
 30. Tell me about a time when you failed.
-Easy, my music career. Although I was able to accomplish more than most musicians ultimately the main goal was not accomplished. We were not able to keep our music career going. However, I learned so much through my experience. I learned how to public speak, I learned how to set up a tour on my own that spanned several cities and states. I learned how to network. I learned the importance and value of practicing and planning. I learned how to market on social media and balance a budget. I also learned the importance of consistency and the relationship with your customers.
+Easy, my music career. Although I was able to accomplish more than most musicians ultimately the main goal was not accomplished. We were not able to keep our music career going. However, I learned so much through my experience. I learned how to public speak, I learned how to set up a tour on my own that spanned several cities and state. I learned how to network. I learned the importance and value of practicing and planning. I learned how to market on social media and balance a budget. I also learned the importance of consistency and the relationship with your customers.
 
 31. What technology at google do you use?
 I use gmail, google meet, youtube, google jamboard, google docs, google chrome, google sheets. Also I am planning on learning the Go programming language.
@@ -121,3 +121,20 @@ Try a different download rate.
 
 34. What is your work life balance?
 My limit is 12 hours a day. Thats my absolute limit. I have 4 hours of hard concentration and 4 hours of easier less mentally strenious work. I have to take at the very least 1 day off per week. I try to take 5 minute mental breaks every 2 hours to give my mind and brain a reset. Also, after I'm done working I try and do something that has nothing to do with work.
+
+35. What was a time where you had to become a leader?
+Columbia city theater show. We were given a ten minute warning to go on stage. My friend had been trouble shooting his computer because it wasn't connecting to the hardware that allowed us to play music. My friend was no longer answering my questions which told me he was starting to panic a bit. 
+At this point I broke our situation down to a few things. 
+    1) we needed more time.
+    2) I had to allow my friend to take a break to reset his mind before show started.
+    3) Fix the hardware situation or we would have to change our plan and play acoustic songs.
+1) While my friend kept trying to fix the issue I asked the sound engineer for a few more minutes to allow us to get something going.
+2) I suggested to my friend to go to the back and warm up his vocals. We could at least play acoustic. 
+I also asked him the steps he had taken to trouble shoot.
+
+3) I sat down and calmed my mind and started trouble shooting.
+    1. I turned off computer and hardware.
+    2. I changed the usb cable that connected pc to hardware.
+    3. I used a different usb port to connect the hardware.
+    4. Finally we got a signal and everything was connecting and working properly.
+I learned that we should always have a back up plan. I also learned that given your teammates different ways of being productive under stress may help them release some tension; I is possible to reset your brain even under a time constraint. Also, I was reaffirmed in my belief that going slower is better than rushing in without thinking.
