@@ -20,4 +20,7 @@ Linux is an open source operating system.
 Pda personal digital assistants.
 
 # IT
-It extends the thinking range of not only individuals but or organizations. Data can be processed faster and decisions can be made more accurately. Mental power to process data can now be transferred over to hardware and software to do the job.
+It extends the thinking range of not only individuals but or organizations. Data can be processed faster and decisions can be made more accurately. Mental power to process data can now be transferred over to hardware and software to do the job. Future decisions can be based on data and not human observations which takes more time and energy. 
+IT allows for fewer people to do more work. IT allows us to avoid communications errors and misconception of goals.
+The need to find odd ball creatives that usually go un-noticed will be more of a focus. These individuals will be important in the steps to improve IT.
+Thinkers and Creatives will be more on level of top management.
