@@ -24,3 +24,14 @@ It extends the thinking range of not only individuals but or organizations. Data
 IT allows for fewer people to do more work. IT allows us to avoid communications errors and misconception of goals.
 The need to find odd ball creatives that usually go un-noticed will be more of a focus. These individuals will be important in the steps to improve IT.
 Thinkers and Creatives will be more on level of top management.
+
+
+# OSI --->>> Open Systems Interconnection
+This is a 7 layers that computers use to communicate over a network.
+7) Application Layer -> Used by end user -> browser and emails.
+6) Presentation Layer -> Sends application layer data and prepares it for session layer.
+5) Session Layer -> Opens Communication/sessions for devices.
+4) Transport Layer -> Segments/reassembles session layer data. Checks for errors/ matches rate speed.
+3) Network Layer -> Segments into network packets, routes packets across best physical network path.
+2) Data Link Layer -> Establishes and terminates connections between physically connected nodes.
+1) Physical Layer -> Cables, wireless connection. Transmits raw data(1s 0s) and bit rate control.
