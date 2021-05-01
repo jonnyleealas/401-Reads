@@ -35,3 +35,6 @@ This is a 7 layers that computers use to communicate over a network.
 3) Network Layer -> Segments into network packets, routes packets across best physical network path.
 2) Data Link Layer -> Establishes and terminates connections between physically connected nodes.
 1) Physical Layer -> Cables, wireless connection. Transmits raw data(1s 0s) and bit rate control.
+
+# Kernel
+Connects system hardware with application software. In computing the kernel is a computer program that is the core of a computer's operating system, with complete control over everything in the system. The kernel is often one of the first programs loaded up on start-up before the boot loader. The kernel manages the hardware resources that the software uses.
