@@ -38,3 +38,6 @@ This is a 7 layers that computers use to communicate over a network.
 
 # Kernel
 Connects system hardware with application software. In computing the kernel is a computer program that is the core of a computer's operating system, with complete control over everything in the system. The kernel is often one of the first programs loaded up on start-up before the boot loader. The kernel manages the hardware resources that the software uses.
+
+# Activity Monitor(mac)/ Task Manager(windows)
+If you want to see where your cpu or ram resources are being allocated you can check the activity monitor.
