@@ -41,3 +41,6 @@ Connects system hardware with application software. In computing the kernel is a
 
 # Activity Monitor(mac)/ Task Manager(windows)
 If you want to see where your cpu or ram resources are being allocated you can check the activity monitor.
+
+# Remote
+Another location for your repository to exist.
