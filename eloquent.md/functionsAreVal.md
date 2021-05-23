@@ -34,12 +34,12 @@ let test = function(n){
 function update(n){
   return n-1
 }
-'''
+```
 
-'''
+```
 loop(5, 5 => 5 > 0, 5 => 5 -1, console.log)
-'''
+```
 
-'''
+```
 loop(5, test, update, console.log);
-'''
+```
