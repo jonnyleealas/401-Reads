@@ -5,26 +5,36 @@
 - I can see how a function is just a tool to that returns a value.
 
 
-
+'''
 function loop(start, test, update, body) {
   for (let value = start; test(value); value = update(value)) {
     body(value);
   }
 }
+'''
 
-
-//let test = (n)=> n>0;
+'''
+let test = (n)=> n>0;
 let test = function(n){
   return n >0
 }
-
-// let update = (n)=> n-1;
-// let update = function(n){
-//   return n-1
-// }
+'''
+'''
+ let update = (n)=> n-1;
+ '''
+ '''
+ let update = function(n){
+   return n-1
+ }
+ '''
+ '''
 function update(n){
   return n-1
 }
-// loop(5, 5 => 5 > 0, 5 => 5 -1, console.log)
-
+'''
+'''
+loop(5, 5 => 5 > 0, 5 => 5 -1, console.log)
+'''
+'''
 loop(5, test, update, console.log);
+'''
