@@ -1,4 +1,7 @@
 # Shuffle the array
+
+- https://www.youtube.com/watch?v=g7wGiljOBgU
+
 x1 = position 1 of x
 y2 = position 2 of y
 
