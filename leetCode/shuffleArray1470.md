@@ -34,6 +34,6 @@ var shuffle = function(nums, n) {
         // push currentY second
         result.push(currentY);
     }
-    //return new array 
+  
     return result
 };
