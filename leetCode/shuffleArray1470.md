@@ -24,12 +24,16 @@ var shuffle = function(nums, n) {
     
     let x = nums.slice(0,n), y = nums.slice(n), result = [];
 
+    // create variables for current x position and current y position in loop
     for(let i = 0; i < nums.length/2;i++){
         let currentX = x[i];
         let currentY = y[i];
         
+        // push currentX first
         result.push(currentX);
+        // push currentY second
         result.push(currentY);
     }
+    //return new array 
     return result
 };
