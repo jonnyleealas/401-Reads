@@ -4,6 +4,7 @@
 - Does the index contain the correct value --> ruleKey/index === ruleValue
 - When we call ruleKey it will look for the key of "color" and its value "1"
  - The index position which is the value has to match the value of ruleValue.
+- So the ruleKey will essentially give you an index position of the array. If that index position's value matches the ruleValue string count++
 
 # Sudo
 - Loop through array
