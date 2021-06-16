@@ -40,3 +40,18 @@ var restoreString = function(s, indices) {
     return shuffled.join('')
 };
 ```
+
+# Solution 3
+- Using reduce is the same as the other two solutions.
+- take our indices array and add reduce to it.
+- Accumulator is where we want to store our new string.
+- currentValue of our indices array starts at 4. So at index 4 of our accumulator we want to add the string[i] of our loop---> this would add the 0 index of our string to the 4 index of our accumulator.
+```
+var restoreString = function(s, indices) {
+  return indices.reduce((accumulator, currentValue, i)=>{
+      accumulator[currentValue] = s[i]
+
+      return acc
+  },[].join(''))
+};
+```
