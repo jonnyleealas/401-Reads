@@ -11,6 +11,7 @@ Return the number of matches played in the tournament until a winner is decided.
  - if even matches played = teams/2 and teams left = teams / 2
  - Else if number of teams is odd matches played += (n-1)/2 and teams left = (n-1)/2+1
  - return matchesPlayed
+ 
 # Code
 
 
