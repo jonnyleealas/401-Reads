@@ -15,8 +15,18 @@ The month has values in ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","
 # What is a primary key
 - A unique id number to help us find information
 
+# Simplified
+- The table needs to be reformated 
+- Revenue table must have an id column
+- Each month should have a revenue column --> Jan_Revenue
+
 
 # Code
+- SUM will summarize all rows
+- Select id selects id
+- FROM selects the table name
+- We then group by id
+- if month = jan, add revenue else null; Column names Jan_Revenue
 ```
 # Write your MySQL query statement below
 SELECT id,
