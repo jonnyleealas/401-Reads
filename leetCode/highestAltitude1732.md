@@ -21,3 +21,16 @@ var largestAltitude = function(gain) {
     return Math.max(...altitudes);
 };
 ```
+
+# Code 2
+- Math.max gives us the largest number in the array
+- We spread the gain array and run reduce on it.
+- Our params are: accumulator(empty array), cv(current val), and i(current position in loop)
+- To our accumulator we push( cv + acc[i])
+- We return acc
+- We start our accumulator at [0]
+```
+var largestAltitude = function(gain) {
+return Math.max(...gain.reduce((acc, cv, i)=> (acc.push(cv + acc[i]), acc), [0]))
+};
+```
