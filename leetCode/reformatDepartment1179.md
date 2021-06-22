@@ -27,6 +27,7 @@ The month has values in ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","
 - FROM selects the table name
 - We then group by id
 - if month = jan, add revenue else null; Column names Jan_Revenue
+- Using AS allows us to name our columns
 ```
 # Write your MySQL query statement below
 SELECT id,
