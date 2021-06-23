@@ -5,6 +5,8 @@ There is a biker going on a road trip. The road trip consists of n + 1 points at
 You are given an integer array gain of length n where gain[i] is the net gain in altitude between points i​​​​​​ and i + 1 for all (0 <= i < n). Return the highest altitude of a point.
 
  # Simplified
+ - Essentially we are given an array "gain" and we need to add each item in the array + the next item.
+ - We need to push each sum into a new array and return the Math.max() number.
  - We are looking for changes in altitude
  - We have to add each change and store it in an array
  - We return the highest number in the new array of changes of altitude.
