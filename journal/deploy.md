@@ -1,0 +1,1 @@
+- We can deploy the front end on one cloud platform and the back end on another.
