@@ -3,6 +3,7 @@ Given a string s, determine if it is a palindrome, considering only alphanumeric
 
  # Simplified
  - I the string a palindrome, meaning does it read the same if it is read forward and backwards. 
+ - we check to see if anything doesnt match. If it doesn't its an automatic false.
 
 # Code
 ```
