@@ -19,6 +19,7 @@ Return the m
 - Binding for L
 - Binding for R
 - We keep track and count each L and each R. If at the end there is an even amount of L and R we add a match to our result.
+```
 var balancedStringSplit = function(s) {
     let result = 0, countL = 0, countR = 0
     for (const char of s) {
@@ -28,3 +29,19 @@ var balancedStringSplit = function(s) {
     }
     return result
 };
+```
+
+# Solution 2
+
+```
+let balancedStringSplit = (s) =>{
+    let count = 0, L = 0, R = 0;
+    
+    for(let i of s){
+        if(i == "R") R ++ 
+        else L++ 
+        if(L == R) count ++
+    }
+    return count
+}
+```
