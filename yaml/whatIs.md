@@ -8,8 +8,8 @@ Json
         {
             name: server1,
             owner: john,
-            created: 12/2
-            status:active
+            created: 12/2,
+            status:active,
         }
     ]
 }
@@ -19,7 +19,7 @@ Yaml
 
 servers:
     name: server1
-    owner: john,
+    owner: john
     created: 12/2
     status: active
 ```
