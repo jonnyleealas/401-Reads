@@ -20,7 +20,7 @@
 - Program
 
 # Characteristics of Algorithm
-- Input
+- Input/ what are we putting into our program when the user is using it?
 - Output/ Result
-- Effectiveness
 - Everything in your algorithm should be human readable and clear to understand.
+- Statement in you algo should have purpose.
