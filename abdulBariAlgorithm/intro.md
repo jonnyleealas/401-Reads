@@ -11,3 +11,16 @@
     - Must be written in a programming knowledge. 
     - When writing the program it is dependant on hardware and software.
     - Test the program.
+
+# Priori Analysis
+- Algorithm
+- Time and Space Function
+
+# Posteriority Testing
+- Program
+
+# Characteristics of Algorithm
+- Input
+- Output/ Result
+- Effectiveness
+- Everything in your algorithm should be human readable and clear to understand.
