@@ -24,3 +24,37 @@
 - Output/ Result
 - Everything in your algorithm should be human readable and clear to understand.
 - Statement in you algo should have purpose.
+
+# How to write an algorithm
+We write the basics or what the program will do. Its not necessary to code the program at this stage. It should just be understandable and readable to humans.
+
+```
+algo swap(a,b){
+    temp = a; 
+    a = b;
+    b = temp;
+}
+
+Time = f(n) = 3 or constant time
+```
+
+# Analyzing an Algo
+1. Time --> How long a procedure is going to take --> Programs should be time efficient.
+1. Space --> How much memory space will it take from a machine to run the program.
+1. Network Transfer --> Network consumption --> How much data is going to be transferred. 
+1. Power consumption on different devices --> How much power will be consumed by our program.
+1. How many registers in a CPU will our program use. 
+
+# Time
+- Every statement takes 1 unit of time.
+    - Single statements 
+
+# Space 
+- We count each variable used when counting space.
+```
+temp = 1
+a = 1
+b = 1
+s(n) = 3word --> constant ---> O(1)
+
+```
