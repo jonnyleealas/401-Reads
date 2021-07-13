@@ -58,3 +58,18 @@ b = 1
 s(n) = 3word --> constant ---> O(1)
 
 ```
+
+# Summary on Design
+## We have to think about a few things when writing a program.
+- First we Design a program and next we write the program.
+- When designing we need to make sure everything is human readable and easy to understand. Like talking to a child. Nothing complicated.
+- We must know what input goes in our program and what output we are expecting.
+- Knowing hardware and software is not necessary in this stage.
+- When writing a program we must know which software we are using and which hardware. Also which programming language we are using to accomplish our program. 
+- We must also analyze our program according to space and time.
+    - Each statement takes 1 time unit
+    - Each variable takes 1 space unit
+    - Constant time is equal to O(n) and S(n)
+    - If each statement only does one thing than it is said to be constant.
+- When analyzing we should also take into account how much power and memory it will take up in the machine our program is meant for. Ex: mobile, laptop, etc.
+- Also how many registers in a CPU our program will need to use.
