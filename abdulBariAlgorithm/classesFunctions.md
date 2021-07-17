@@ -8,7 +8,7 @@
 
 # Variables 
 - n --> numbers
-- k --> known
+- k --> known --> Also its the next letter j
 - i --> index
 - i j k are used in for loops because they are in ascending order in the alphabet.
 
