@@ -21,6 +21,9 @@
 - We check whether the letter is in the object. If it is we add 1 to keep count of how many letters are already in the object.
 - If the if value of that specific key is not greater than 0 that means that the letter is not in the object.
 - Next line of code will go to the object and add the key of the letter according to the letter that the loop is currently on. We also give it the value of 1 to keep count.
+
+# CharCodeAt()
+- Gives us the numerical value of a character
 ```
 let obj = {}
 let string = "jo000000nny"
