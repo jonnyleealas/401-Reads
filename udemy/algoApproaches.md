@@ -138,3 +138,20 @@ console.log(i)
 console.log(anagram(arr1, arr2))
 
 ```
+
+# Summary
+- Understand the problem
+- Come up with examples
+- Break down the problems
+- Simplify small segments and combine solutions 
+    - Think about input and output
+    - Think about edge cases, This may help solve if you're stuck on something
+
+# Summary on Frequency
+- Be create an object and add elements to the object for comparison
+- If the length of both arrays arent the same then we know that we don't have a match.
+- We loop through each element and add to obj
+- We compare keys of object to see if they match
+- We compare values of object to see if they match
+- We can also subtract 1 from key: val every time we find a match. We want our values to all be zero after our comparison is complete. If we make a comparison and we've already reached zero we can break our of our conditional and return false. 
+- for(let i in obj) is a loop we can use for objects.
