@@ -72,3 +72,38 @@ for(let key in obj1){
 }
 
 ```
+
+## Anagram
+```
+let arr1 = "apple"
+let arr2 = "pplea"
+
+let anagram = (a,b)=>{
+  if(a.length != b.length){
+    return false
+  }
+  let obj1 = {}
+  let obj2 = {}
+
+  for(let char of a){
+    obj1[char] = (obj1[char] || 0) +1
+  }
+
+  for(let char of b){
+    obj2[char] = (obj2[char] || 0) +1
+  }
+
+  for(let key in obj1){
+    if(!(key in obj2)){
+      return false
+    }
+
+    if(obj1[key] != obj2[key]){
+      return false
+    }
+  }
+  return true
+}
+
+console.log(anagram(arr1, arr2))
+```
