@@ -23,6 +23,7 @@
  - Helps avoid nested loops.
  - Frequency of things that occur
 
+## This checks to see if array 2 contains array 1 but squared
  ```
 let arr1 = [1,2,3]
 let arr2 = [1,4,9]
@@ -69,5 +70,71 @@ for(let key in obj1){
  }
   return true
 }
+
+```
+
+## Anagram 1
+```
+let arr1 = "apple"
+let arr2 = "pplea"
+
+let anagram = (a,b)=>{
+  if(a.length != b.length){
+    return false
+  }
+  let obj1 = {}
+  let obj2 = {}
+
+  for(let char of a){
+    obj1[char] = (obj1[char] || 0) +1
+  }
+
+  for(let char of b){
+    obj2[char] = (obj2[char] || 0) +1
+  }
+
+  for(let key in obj1){
+    if(!(key in obj2)){
+      return false
+    }
+
+    if(obj1[key] != obj2[key]){
+      return false
+    }
+  }
+  return true
+}
+
+console.log(anagram(arr1, arr2))
+```
+## Anagram 2
+```
+
+
+let anagram = (a,b)=>{
+    if(a.length != b.length){
+        return false
+    }
+
+    let obj = {};
+
+    for(let i of a){
+      console.log(i)
+        obj[i] ? obj[i] ++ : obj[i] = 1
+    }
+    for(let i of b){
+console.log(i)
+// this means i cant find obj[i] or obj[i] is 0
+// Thats why we subtract each time we find a letter. Once it gets to zero we will be able to exit the conditional if !obj[i]
+        if(!obj[i]){
+            return false
+        } else { 
+          console.log(obj)
+          obj[i]--
+      }
+    }
+    return true
+}
+console.log(anagram(arr1, arr2))
 
 ```
