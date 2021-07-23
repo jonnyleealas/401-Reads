@@ -58,3 +58,8 @@ for(let char of string){
 return obj
 
 ```
+
+
+# Summary
+- To add to objects or arrays we can use square brackets object[]. What is inside the bracket will be the key.
+- Objects lookup is constant time, arrays are linear unless we know the exact index of an element then it is linear.

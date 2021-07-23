@@ -15,3 +15,10 @@
     - Write, write, write!!!
 - Pseudo Code --> Write out steps using comments.
 
+# Summary
+- Understand the problem
+- Concrete examples
+- Break it down in pseudo
+- Simplify and solve in smaller sections then connect the dot to form ultron.
+- Refactor
+
