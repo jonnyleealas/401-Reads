@@ -41,3 +41,20 @@ for(let i=0; i < string.length; i++){
 console.log(obj)
 
 ```
+
+# Second Solution
+
+```
+
+let obj = {};
+let string = "jooo0000"
+
+for(let char of string){
+  char = char.toLowerCase();
+  if(/[a-z0-9].test(char)){
+    obj[char] = ++obj[char] || 1;
+  }
+}
+return obj
+
+```
