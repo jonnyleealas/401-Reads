@@ -23,6 +23,7 @@
  - Helps avoid nested loops.
  - Frequency of things that occur
 
+## This checks to see if array 2 contains array 1 but squared
  ```
 let arr1 = [1,2,3]
 let arr2 = [1,4,9]
