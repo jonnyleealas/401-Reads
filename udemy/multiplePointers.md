@@ -38,5 +38,50 @@ while(start < end){
 }
 
 console.log(findSum(arr))
+
+
+```
+# Summary start and end
+- We can use a two pointer method to solve problems that are looking for two elements that make up a third element.
+- One pointer at the start and one at the end of the list we are checking.
+- At each iteration we make a check and move either the start pointer ++ or the end pointer --
+
+# Multiple pointer unique values
+- If we are looking for unique values we can use two pointers to check.
+- first pointer starts at index 0 and the second at index 1
+- We check to see if first is equal to second if they are not we move second up one.
+- if the pointers are not equal we can move the starting pointer up one index and make the index equal to pointer two.
+- we can then return the first index +1 to get our total unique values.
+
+
+# Code example
 ```
 
+let arr2 = [1]
+/**
+ * create function findUnique
+ * create a counter 
+ * variable for first
+ * variable for second which start one index ahead of first
+ * loop through arrayf
+ * if first doesnt == second counter ++
+ * if it does == second move both pointers up one
+ */
+let findUnique = (a)=>{
+  if(a.length === 0) return 0
+let i =0
+for(let j = 1; j < a.length; j++){
+  if(a[i]!== a[j]){
+    i++
+    a[i]=a[j]
+  }
+}
+return i+1
+}
+
+console.log(findUnique(arr2))
+```
+
+# Summary Unique values
+- We keep moving second pointer up one index till we find a value that doesn't match.
+- Once we find a value where first and second don't match we move first up one index and set that index equal to the value of the position of second pointer.
