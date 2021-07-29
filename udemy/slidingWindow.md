@@ -41,9 +41,8 @@ next we check if we need to update our maxSum
 let maxSubArraySum = (a, num)=>{
   let maxSum = 0, tempSum =0;
 
-  if(num > a.length){
-    return null
-  }
+  if(num > a.length) return null;
+  
 
   for(let i = 0; i < num; i++){
     maxSum += a[i]
@@ -52,12 +51,11 @@ let maxSubArraySum = (a, num)=>{
   tempSum = maxSum
 
   for(let i = num; i < a.length; i++){
-    tempSum = tempSum - a[i - num] + a[i]
-    // console.log(tempSum)
-      console.log(maxSum, tempSum)
-    if(tempSum > maxSum){
-      maxSum = tempSum
-    }
+    previousIndex = a[i - num]
+    currentIndex = a[i]
+    tempSum = tempSum - previousIndex + currentIndex
+    console.log(maxSum, tempSum)
+    maxSum = Math.max(maxSum, tempSum)
   }
   return maxSum
 }
@@ -66,7 +64,28 @@ console.log(maxSubArraySum(array, 3))
 ```
 
 # Summary
-- We create a window or two pointer that are n indexes apart and slide it the the next index while we add up sums.
+- Use when we need to keep track of a sub set of data
+- We create a window that are n indexes apart and slide it the the next index while we add up sums.
 - We subtract index 0 and add our current index.
 - We compare maxNum and tempNum; we update to the largest sum
 - Basically we create pointers n spaces apart to check the sum of a subset of elements n indexes apart. We create a window n indexes apart and slide it along the array while we sum the subset of elements.
+
+## Linear search
+- Go through each element in a data structure and see if an element exists.
+```
+let values = [1,2,3,4,5]
+
+let findIndexOfValue = (a, value)=>{
+  
+  for(let i=0; i < a.length; i++){
+    if(a[i] == value){
+
+      return i
+      
+    } 
+  }
+return -1
+}
+
+console.log(findIndexOfValue(values,3))
+```
