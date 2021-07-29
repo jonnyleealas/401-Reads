@@ -71,6 +71,7 @@ console.log(maxSubArraySum(array, 3))
 - Basically we create pointers n spaces apart to check the sum of a subset of elements n indexes apart. We create a window n indexes apart and slide it along the array while we sum the subset of elements.
 
 ## Linear search
+- Go through each element in a data structure and see if an element exists.
 ```
 let values = [1,2,3,4,5]
 
