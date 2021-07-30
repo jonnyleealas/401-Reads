@@ -85,3 +85,61 @@ console.log(findUnique(arr2))
 # Summary Unique values
 - We keep moving second pointer up one index till we find a value that doesn't match.
 - Once we find a value where first and second don't match we move first up one index and set that index equal to the value of the position of second pointer.
+
+
+
+### Multiple pointers find ave sum of pairs that match target value
+- If our input is 0 or only has 1 element we can return false because we at least need 2 elements in the array.
+- pointer for 0
+- pointer for end of array
+- while start is < end
+- take the ave of right and left
+  - if sum === target we are done and we can return true
+  - if ave is < target move start ++
+  - else move end--
+  - If the loop finishes and nothing is found we can return false
+```
+let ave = [1,2,3,5,6]
+function averagePair(array, target){
+    if(array.length === 0 || array.length === 1) return false
+
+        let right = 0
+        let left = array.length - 1;
+    
+    while(right < left){
+        let sum = (array[right] + array[left])/2;
+      console.log(array[right], array[left], sum)
+            
+            if(sum == target) return true
+            else if(sum < target)right++
+            else left--       
+    }
+    return false
+
+}
+```
+```
+let ave = [1,2,3,5,6]
+function averagePair(array, target){
+    if(array.length === 0 || array.length === 1) return false
+
+        let right = 0
+        let left = array.length - 1;
+    
+    while(right < left){
+            sum = (array[right] + array[left])/2;
+            if(sum == target) return true
+            else if(sum < target)right++
+            else left--       
+    }
+    return false
+
+}
+```
+### Summary 
+- With this approach starting with a pointer at start and one at end.
+- We can use a while loop while start is less than end.
+- do some math
+- Go through our checks
+- Either return true
+- Or move pointers left or right based on our if statements.
