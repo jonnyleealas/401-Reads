@@ -143,3 +143,4 @@ function averagePair(array, target){
 - Go through our checks
 - Either return true
 - Or move pointers left or right based on our if statements.
+- I tried setting variables for righ = array[0] outside of the loop but it didn't work. Maybe it has something to do with the location of the index and how it reads it.
