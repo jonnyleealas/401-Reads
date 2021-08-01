@@ -69,3 +69,37 @@ function factorial(n){
 # Summary factorial 
 - Base case
 - Return number * function(num - 1) --> This tells the program to subtract 1 from our input till it hits 1. At 1 our program will stop and return the results.
+
+
+# Helper Function in Recursion
+- A function that uses a recursive function within it its code block to go through a list. The outer function will return the results from its inner function.
+- We can use this when we need to add to a return array from withing the outer function to avoid resetting the array to zero.
+## Code Sample
+- Find odds takes an array and return all odd numbers.
+-  Our base case checks for the length of the array to hit zero so it can break out.
+- Next we go to index 0 and check to see if the number is not even.
+- If it is even we push that number into our array.
+- We call the same function but this time we slice at index 1 so that we remove the element we just checked. The function will run recursively till we have go through our entire array.
+- Lastly we return our array.
+```
+function findOdds(num){
+  let array = [];
+
+  function recursive(outerInput){
+    if(outerInput.length === 0){
+      return
+    }
+    if(outerInput[0] % 2 !== 0){
+      array.push(outerInput[0])
+    }
+    recursive(outerInput.slice(1))
+
+  }
+
+  recursive(num)
+
+  return array
+}
+
+console.log(findOdds([1,2,3,4,5,6,7,8,9,10]))
+```
