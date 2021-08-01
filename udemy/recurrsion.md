@@ -51,3 +51,17 @@ function sumRange(num){
 
                         return 1 + sumRange(1 - 1) --> Becomes 1 + (1 - 1) = 1
 ```
+
+# Factorial
+- Instead of adding 5 then 4 then 3 then 2 then 1 we multiply.
+- 5 * 4 * 3 * 2 * 1
+
+```
+
+function factorial(n){
+    if(n ===1){
+        return 1
+    }
+    return n * factorial(n - 1)
+}
+```
