@@ -80,6 +80,7 @@ function factorial(n){
 - Next we go to index 0 and check to see if the number is not even.
 - If it is even we push that number into our array.
 - We call the same function but this time we slice at index 1 so that we remove the element we just checked. The function will run recursively till we have go through our entire array.
+- Slice removes everything to the left of the index input given to it.
 - Lastly we return our array.
 ```
 function findOdds(num){
