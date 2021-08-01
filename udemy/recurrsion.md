@@ -65,3 +65,7 @@ function factorial(n){
     return n * factorial(n - 1)
 }
 ```
+
+# Summary factorial 
+- Base case
+- Return number * function(num - 1) --> This tells the program to subtract 1 from our input till it hits 1. At 1 our program will stop and return the results.
