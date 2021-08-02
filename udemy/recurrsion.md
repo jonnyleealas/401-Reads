@@ -51,3 +51,78 @@ function sumRange(num){
 
                         return 1 + sumRange(1 - 1) --> Becomes 1 + (1 - 1) = 1
 ```
+
+# Factorial
+- Instead of adding 5 then 4 then 3 then 2 then 1 we multiply.
+- 5 * 4 * 3 * 2 * 1
+
+```
+
+function factorial(n){
+    if(n ===1){
+        return 1
+    }
+    return n * factorial(n - 1)
+}
+```
+
+# Summary factorial 
+- Base case
+- Return number * function(num - 1) --> This tells the program to subtract 1 from our input till it hits 1. At 1 our program will stop and return the results.
+
+
+# Helper Function in Recursion
+- A function that uses a recursive function within it its code block to go through a list. The outer function will return the results from its inner function.
+- We can use this when we need to add to a return array from withing the outer function to avoid resetting the array to zero.
+## Code Sample
+- Find odds takes an array and return all odd numbers.
+-  Our base case checks for the length of the array to hit zero so it can break out.
+- Next we go to index 0 and check to see if the number is not even.
+- If it is even we push that number into our array.
+- We call the same function but this time we slice at index 1 so that we remove the element we just checked. The function will run recursively till we have go through our entire array.
+- Slice takes an index input and removes everything to the left of that index. If the index is 3 it will remove indexes [0,1,2]. If The index is 2 it will slice off indexes [0,1].
+- Lastly we return our array.
+```
+function findOdds(num){
+  let array = [];
+
+  function recursive(outerInput){
+    if(outerInput.length === 0){
+      return
+    }
+    if(outerInput[0] % 2 !== 0){
+      array.push(outerInput[0])
+    }
+    recursive(outerInput.slice(1))
+
+  }
+
+  recursive(num)
+
+  return array
+}
+
+console.log(findOdds([1,2,3,4,5,6,7,8,9,10]))
+```
+
+# Return the power of the exponents
+- Base case - if exponent = 1 return 1
+- Base * function(base, exp - 1)
+
+## Code Example
+- Function will go down recursively till the exponent is 1.
+- At 1 base will become 3 and be multiplied by 3 which is 9. 9 will be returned to the next call. 9 times 3 will return 27.
+```
+/*
+ return base * power(9, 3)
+     return 3 * power(9, 2) -- 27
+     return 3 * power(3, 1) -- 9
+
+*/
+function power(base, exponent){
+    if(exponent === 0) return 1
+    return base * power(base, exponent-1)
+}
+```
+# Summary of recursion
+- When our input is subtracted by 1 we can view it from the bottom up. The function goes all the way to 1 and thats where it started returning inputs to the next functions till they reach the top of the stack. So it stack from the bottom till it reaches the top. The first initialized functions get all the numbers that have been summed from starting at 1 and thats what gets returned.
