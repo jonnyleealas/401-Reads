@@ -104,3 +104,23 @@ function findOdds(num){
 
 console.log(findOdds([1,2,3,4,5,6,7,8,9,10]))
 ```
+
+# Return the power of the exponents
+- Base case - if exponent = 1 return 1
+- Base * function(base, exp - 1)
+
+## Code Example
+- Function will go down recursively till the exponent is 1.
+- At 1 base will become 3 and be multiplied by 3 which is 9. 9 will be returned to the next call. 9 times 3 will return 27.
+```
+/*
+ return base * power(9, 3)
+     return 3 * power(9, 2) -- 27
+     return 3 * power(3, 1) -- 9
+
+*/
+function power(base, exponent){
+    if(exponent === 0) return 1
+    return base * power(base, exponent-1)
+}
+```
