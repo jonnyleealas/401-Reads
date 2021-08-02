@@ -124,3 +124,5 @@ function power(base, exponent){
     return base * power(base, exponent-1)
 }
 ```
+# Summary of recursion
+- When our input is subtracted by 1 we can view it from the bottom up. The function goes all the way to 1 and thats where it started returning inputs to the next functions till they reach the top of the stack. So it stack from the bottom till it reaches the top. The first initialized functions get all the numbers that have been summed from starting at 1 and thats what gets returned.
