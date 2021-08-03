@@ -124,5 +124,22 @@ function power(base, exponent){
     return base * power(base, exponent-1)
 }
 ```
+
+# Reverse an array recursively
+- Base case stops the recursion when it is less than or equal to 0.
+- Next slice at index 1 + add index 0. We call this functions recursively till it has sliced and added each index to the end of the array.
+```
+
+let n = [1,2,"bitch"]
+
+function reverse(str){
+	if(str.length <= 1) return str;
+    console.log(str)
+	return reverse(str.slice(1)) + str[0];
+}
+reverse(n)
+
+
+```
 # Summary of recursion
 - When our input is subtracted by 1 we can view it from the bottom up. The function goes all the way to 1 and thats where it started returning inputs to the next functions till they reach the top of the stack. So it stack from the bottom till it reaches the top. The first initialized functions get all the numbers that have been summed from starting at 1 and thats what gets returned.
