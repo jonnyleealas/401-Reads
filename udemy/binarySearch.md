@@ -64,4 +64,5 @@ function binary(array,  element){
 - Next if our element is middle return middle, else not found return -1.
 
 ## Side not about index vs index value
-- element is a value so if we are looking to compare values and we say mid, well mid is pointing to an index position not its value. To point at an index's value we have to say array[mid] --> in other words: choose the value of the array at index position mid.
+- element is a value so if we are looking to compare values and we say mid, well mid is pointing to an index position not its value. To point at an index's value we have to say array[mid] --> in other words: choose the value of the array at index position mid --> mid = Math.floor((start + end )/ 2) which will give the index position at the middle of our array --> [1,2,3,4,5] mid = 3
+- When comparing values we have to go find the index location and the find the value we are comparing --> So array[index] will give us the value that is held at the index position.
