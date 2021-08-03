@@ -5,6 +5,12 @@
 - If value we are looking for is greater then we search the right side.
 - If value is lesser we search left side.
 
+# Time complexity
+- O(log base 2 of n) or 2 to what power gives us n?
+- Simplified to O(log n)
+- Every time we double our input we are only adding 1 extra step. 
+- O(log n) is similar to linear O(1)
+
 ```
 function binaryS(a, n){
   let left = a[0];
