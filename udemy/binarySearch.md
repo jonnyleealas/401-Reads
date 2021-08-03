@@ -58,8 +58,9 @@ function binary(array,  element){
 # Summary
 - Binary search splits our data set in 3 parts. Start of array , end of array , and middle.
 - We loop through our data.
+- Loop while middle is not our element and also while start is less than end.
 - If our element is less than middle change the end to position middle -1, else update start to position mid + 1. Each time we move our pointers we have to reset our middle.
 - Next if our element is middle return middle, else not found return -1.
 
 ## Side not about index vs index value
-- element is a value so if we are looking to compare values and we say mid, well mid is pointing to an index position not its value. To point at an index's value we have to say array[mid] --> in other words: choose the value of the array at index mid.
+- element is a value so if we are looking to compare values and we say mid, well mid is pointing to an index position not its value. To point at an index's value we have to say array[mid] --> in other words: choose the value of the array at index position mid.
