@@ -56,8 +56,8 @@ function binary(array,  element){
 ```
 
 # Summary
+- The data must be sorted!!! Time O(log n) or best O(1)
 - Binary search splits our data set in 3 parts. Start of array , end of array , and middle.
-- The data must be sorted!!!
 - We loop through our data.
 - Loop while middle is not our element and also while start is less than end.
 - If our element is less than middle change the end to position middle -1, else update start to position mid + 1. Each time we move our pointers we have to reset our middle.
