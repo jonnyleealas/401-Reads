@@ -24,3 +24,7 @@
         return b - a
     }
     ```
+
+# Summary for javascript sort()
+- This methods sorts according to unicode
+- We can tell sort how we want our return output sorted by giving it a function of either ascending[b-a] or descending[a-b].
