@@ -28,3 +28,4 @@
 # Summary for javascript sort()
 - This methods sorts according to unicode
 - We can tell sort how we want our return output sorted by giving it a function of either ascending[b-a] or descending[a-b].
+- Length of a string can be return similarly buy adding .length to our return values.
