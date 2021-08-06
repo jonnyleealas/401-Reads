@@ -1,0 +1,4 @@
+- Front end requests to the back end
+- back end receives the request and queries an api.
+- The api return to the back-end a response object.
+- We decide what we want to display and how we want to display that response object on the front end.
