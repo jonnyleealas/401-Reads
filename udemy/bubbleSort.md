@@ -3,6 +3,9 @@
 - [Visualgo](https://visualgo.net/en)
 - We compare the current item to its next item and swap places if the next item is larger than the current item.
 
+# Time Complexity
+- O(nˆ2) worst case
+- O(n) best case if our input is sorted
 # How to swap
 - Save temp for current
 - swap current with next index
@@ -47,7 +50,7 @@ function bubbleSort(array){
     return array
 }
 ```
-# Summary 
+# Summary Bubble Sort
 - We go through our array and check whether our current index is greater than our next index.
 - If it is greater we swap our next index with our current index.
 - At our first check our greatest number should sort to the end of our array. 
@@ -59,3 +62,27 @@ function bubbleSort(array){
     -  Looping for i > 0 --> Means while the number of things in our array is greater than 0
     - i-- will decrement i so that at some point i will be less than 0; thats when our loop will stop.
     - To summarize: With loops we must set a variable for a number, conditionals using that number, and counters to update our number.This is how we program the loop and tell it how many times to run.
+
+# Bubble Sort Edge Case
+- Added edge case incase our array is sorted
+- Setting sorted as true and updating to false will help us break out of our function if everything in our array is sorted.
+
+```
+
+function bubbleSort(array){
+    let noSwaps;
+    for(let i= array.length; i > 0; i--){
+        noSwap = true
+        for(let j=0; j < i - 1; j++){
+            if(array[j] > array[j + 1]){
+                let temp = array[j]
+                    array[j] = array[j + 1]
+                    array[j+1] = temp
+                    noSwap = false
+            }
+        }
+        if(noSwap) break;
+    }
+    return array
+}
+```
