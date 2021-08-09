@@ -13,3 +13,7 @@
 # Instance Methods
 - Methods in a class relevant to individual instances of the class. These methods are not meant to be used within the class but are meant to be used when an instance of the class is created.
     - push, reverse, shift, get, insert, remove, pop.
+
+# Static Methods of a class
+- A utility method of a class that is not meant for an instance. 
+- We call it by using a capitol letter and a dot. ClassName.method. 
