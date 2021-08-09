@@ -35,7 +35,7 @@ class BST{
 - Binary Search tree must be in order
 - left of the root is less than and right of the root is greater
 - Must create a class for node and a class for bst
-- Also we make root and point it to null so that we have a base layout for new instances of the class.
+- Also we make root and point it to null so that we have a base layout for new instances of the class. We need to give the bst class an empty root.
 
 # Summary Node Class
 - We create a class with pointers to left, right, and value
