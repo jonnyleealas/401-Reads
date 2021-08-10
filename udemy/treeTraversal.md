@@ -16,12 +16,12 @@
     - If there is a right property on the queue add it to the queue.
 - Return the variable that stores the values.
 
-# Simplified
-- Binder for this.root, queue array, data array
-- push this.root into our queue
-- while queue.length
-    - take the first thing off of queue
-    - put the first node into data array
-    - if there is a left queue.push left
-    - if there is a right queue.push right
-    - return data array
+# Summary
+- Breadth first search goes through each node in a tree across each level. Starting at the root it check if it has a left, if yes it pushes it in to a queue. Then checks if there is a right, and pushes the node into the queue. 
+- Binding this.root, data array, queue array.
+- push root into queue
+- while queue has a length 
+    - pop first thing and push into data array
+    - if there is a left push left into queue
+    - if there is a right push right into queue
+    - return data array.
