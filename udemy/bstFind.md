@@ -1,3 +1,8 @@
+# Find
+
+# Time Complexity 
+- O(log n)
+- O(1) Best Case
 # BST Method Find Long Version
 - Start at root
     - check if there is a root, if not - return false because there is nothing.

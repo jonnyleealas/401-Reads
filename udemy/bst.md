@@ -3,6 +3,10 @@
 - Any child of a parent lower are to the left and higher are to the right.
 - Any node to the left of the parent is higher in value and any node to the right of the parent is lower in value than the parent.
 
+# Time Complexity
+- O(log n)
+- O(1) best case
+
 # Node Class
 - classes need a constructor function to create our object template
 - this.value = value
@@ -50,6 +54,10 @@ class BST{
         - Return this;
     - else we have to go to the right node and restart our search.
     - else currentNode = currentNode.right
+
+# Insertion Time Complexity
+- O(log n)
+- O(1) Best Case
 ```
 class Node{
   constructor(v){
