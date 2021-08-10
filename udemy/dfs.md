@@ -15,11 +15,6 @@
     - invoke the helper function with current
     - return array of visited.
 
-# Summary DFS Pre-Order
-- Visit node first
-- Search entire left side then entire right side of each node.
-- We do this with a helper function recursively.
-- We then instantiate the function and return our data array.
 
 # Pre-Order Code
 ```
@@ -40,6 +35,10 @@ pre-order(){
 
 # Summary DFS Pre-Order
 - We push our root node.value before we visit its left and right children.
+- Visit node first
+- Search entire left side then entire right side of each node.
+- We do this with a helper function recursively.
+- We then instantiate the function and return our data array.
 
 # DFS Post-Order
 - We visit root node last.
