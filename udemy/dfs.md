@@ -62,3 +62,41 @@ postOrder(){
 
 # Summary Post-Order
 - Similar to DFS pre-order except we push the root value after we have visited the left and right children.
+
+# DFS In-Order
+- Ascending from low to high according to value.
+- Go to current node
+    - does it have a left, if yes call helper function with node.left if not push current node
+    - does it have a right, if yes call helper function with node.right if not go to previous recursive call.
+- It will check left side, once it checks left it pushes node.value into data array, then it proceeds to call recursion on node.right. 
+
+# Code DFS In-Order
+- Binder for data array
+- Binder for this.root so we can update current node we are on.
+- Helper function that takes a node
+    - if left helper(node.left)
+    - data.push(node.value)
+    - if right helper(node.right)
+- Call helper(current)
+- return data array
+
+```
+dfsIn-Order(){
+    let data = [];
+    let current = this.root;
+
+    function traversal(node){
+        if(node.left) recursive(node.left);
+        data.push(node.value);
+        if(node.right) traversal(node.right);
+    }
+
+    traversal(current);
+    return data;
+}
+```
+
+# Summary DFS Post-Order
+- Check if there is a left
+- Push node.value
+- Check if there is a right.
