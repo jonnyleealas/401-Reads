@@ -15,8 +15,24 @@
     - If there is a left property on the node dequeue- ad dit to the queue.
     - If there is a right property on the queue add it to the queue.
 - Return the variable that stores the values.
+```
+bfs(){
+    let node = this.root;
+    let data = [];
+    let queue = [];
+    queue.push(node);
+    while(queue.length){
+        let node = queue.shift();
+        data.push(node.value);
+        if(node.left) queue.push(node.left);
+        if(node.right) queue.push(node.right);
+    }
+    return data
+}
 
-# Summary
+```
+# Summary Breadth First Search
+- Always uses a queue array
 - Breadth first search goes through each node in a tree across each level. Starting at the root it check if it has a left, if yes it pushes it in to a queue. Then checks if there is a right, and pushes the node into the queue. 
 - Binding this.root, data array, queue array.
 - push root into queue

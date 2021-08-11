@@ -65,7 +65,7 @@
 # Find Method Simple
 
 ```
-find2(value){
+find(value){
    
     if(this.root === null) return false
      let current = this.root;
