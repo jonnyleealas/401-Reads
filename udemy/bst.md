@@ -60,61 +60,122 @@ class BST{
 - O(1) Best Case
 ```
 class Node{
-  constructor(v){
-    this.v = v;
+  constructor(value){
+    this.value = value;
     this.left = null;
     this.right = null;
   }
 }
 
-
-class Bst{
+class BST{
   constructor(){
-        this.root = null
-    }
+    this.root = null;
+  }
 
-insert(value){
+  insert(value){
     let newNode = new Node(value);
 
     if(this.root === null){
-        this.root = newNode;
-        return this;
+      this.root = newNode;
+      return this;
     } else {
-        let currentNode = this.root;
-        while(true){
-            if(value === currentNode.v) return "no dups";
-            if(value < currentNode.v){
-                if(currentNode.left === null){
-                    currentNode.left = newNode;
-                    return this;
-                } else {
-                    currentNode = currentNode.left
-                }
-            } else if(value > currentNode.v){
-                if(currentNode.right === null){
-                    currentNode.right = newNode
-                    return this;
-                } else {
-                    currentNode = currentNode.right
-                }
-            }
+      let current = this.root;
+      while(true){
+        if(value < current.value){
+          if(current.left === null){
+            current.left = newNode;
+            return this;
+          } else {
+            current = current.left
+          } 
+          } else if(value > current.value){
+            if(current.right === null){
+              current.right = newNode;
+              return this;
+            } else {
+              current = current.right
+            } 
         }
+      }
     }
+  }
+
+  find(value){
+    if(this.root === null) return "not found";
+    let current = this.root;
+    let found = false;
+    while(current && !found){
+      if(value < current.value){
+        current = current.left;
+      } else if(value > current.value){
+        current = current.right
+      } else {
+        found = true;
+      }
+    }
+    if(!found)return "Node value not found";
+    return current;
+  }
+   
+  bfs(){
+    let node = this.root, data = [], queue = [];
+    queue.push(node)
+    while(queue.length){
+       let node = queue.shift()
+      data.push(node.value)
+      if(node.left) queue.push(node.left);
+      if(node.right) queue.push(node.right);
+    }
+  return data
+  }
+
+  dfsPre(){
+    let current = this.root;
+    let data = [];
+    function traversal(node){
+      data.push(node.value);
+      if(node.left)  traversal(node.left);
+      if(node.right) traversal(node.right);
+    }
+    traversal(current);
+    return current;
+  }
+
+  dfsPost(){
+    let current = this.root, data = [];
+
+    function traversal(node){
+      if(node.left) traversal(node.left);
+      if(node.right) traversal(node.right);
+      data.push(node.value);
+    }
+
+    traversal(current);
+    return data;
+  }
+
+  dfsOrder(){
+    let current = this.root, data = [];
+
+    function traversal(node){
+      if(node.left) traversal(node.left);
+      data.push(node.value);
+      if(node.right) traversal(node.right);
+    }
+
+    traversal(current);
+    return data;
+  }
 }
 
-}
-
-
-let bst = new Bst()
-
-bst.insert(90)
-bst.insert(80)
-bst.insert(10)
-bst.insert(15)
-bst.insert(100)
-bst.insert(12)
+let bst = new BST()
+bst.insert(4)
+bst.insert(44)
+bst.insert(24)
+bst.insert(433)
 bst.insert(1)
-bst.insert(1)
+
+console.log(bst.dfsOrder())
 ```
 
 
