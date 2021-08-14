@@ -191,4 +191,6 @@ console.log(bst.dfsOrder())
 - We create a class with pointers to left, right, and value
 - Node is basically an object that helps us organize our data. So in this case Node will have keys for value, right, and left.
 
+## Notes
+- if(!node) can be used instead of if(node === null)
 
