@@ -87,6 +87,8 @@ find(value){
 ```
 
 # Summary Find Method Short Version
+- We check if this.root is null
+- We create a binding for our current position --> current = this.root
 - This version is less code due to the found variable we create and set to false.
 - We set a conditional that sets it to true.
 - If it is never set to true we never found our value and return false.
