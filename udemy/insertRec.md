@@ -43,3 +43,4 @@ console.log(JSON.stringify(newTree, null, 2));
 - Create an object with two indexes, 1 for left, 1 for right.
 - Keys in object are value, Children array
 - We push objects with the value when the node is null.
+- We are pushing an object with the value as the key and into the children array.
