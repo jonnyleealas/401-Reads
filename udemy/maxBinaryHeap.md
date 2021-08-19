@@ -66,6 +66,56 @@ heap.insert(700)
 console.log(heap)
 
 ```
+# Code with comments
+```
+class MaxBinaryHeap{
+  constructor(){
+    this.values = [41,39,33, 18, 27, 12];
+    
+  }
+
+  insert(element){
+    this.values.push(element);
+    this.bubbleUp();
+  }
+  bubbleUp(){
+    // bind the index position
+    let idx = this.values.length - 1;
+    // bind the index position's value
+    const element = this.values[idx];
+    // if the length is 6 then index will be 6 and the loop will loop while 6 is greater than 0.
+    while(idx > 0){
+      // we need to find the parent of the child so we subtract - 1 from the index and divide it by 2.
+      let parentIdx = Math.floor((idx - 1)/2);
+      // We take that parent index and look at the value
+      let parent = this.values[parentIdx];
+      if(element <= parent)break;
+      // the array at the parent index value = the value at our old element
+      this.values[parentIdx] = element;
+      // the value at our original idx = our parent value
+      this.values[idx] = parent;
+      // our old index = our parent index
+      idx = parentIdx;
+      
+    }
+  }
+}
+
+let heap = new MaxBinaryHeap();
+
+
+heap.insert(9)
+console.log(heap)
+heap.insert(8)
+console.log(heap)
+heap.insert(700)
+console.log(heap)
+
+```
+
+
+
+
 
 # Summary 
 - Max binary heap: Parent is always larger than child
