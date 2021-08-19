@@ -10,6 +10,17 @@
 
 
 # Code 
+- Create a values array in our constructor
+- create insert method that take an element.
+- save our last index in a binding. This is the element we just pushed.
+- save the value at that index
+    - while index is > 0
+    - Binding for the parent of our element
+    - Binding for the value of our parent
+        - if element value is <= parent value we can break
+        - else make our parent index = our element value
+        - make the value at our original index the parent value
+        - update our index to our parent index
 ```
 class MaxBinaryHeap{
   constructor(){
@@ -55,3 +66,10 @@ heap.insert(700)
 console.log(heap)
 
 ```
+
+# Summary 
+- Max binary heap: Parent is always larger than child
+- We insert at the end of an array
+- We compare the value of the element we just pushed to its parent.
+- We break if the element is less than parent
+- We swap if element is > than parent
