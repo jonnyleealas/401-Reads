@@ -123,3 +123,7 @@ console.log(heap)
 - We compare the value of the element we just pushed to its parent.
 - We break if the element is less than parent
 - We swap if element is > than parent
+      - Check if value is < then parent; break
+      - this.values[parent Index] = value of child --> this goes to the parent index and changes its value to the value we just pushed(child value)
+      - this.value[child index] = value of parent --> this goes to the index of child and changes its value to the value of the parent --> this.values[parentIndex]
+      - childIndex = parentsIndx --> this updates the current index in the array we are checking.
