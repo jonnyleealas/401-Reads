@@ -2,12 +2,15 @@
 - Removing Max element
 - Bubble Down, trickle down, sink down
 - We put an element at the root that shouldn't be there then we bubble down till it gets to the correct position.
+    - Swap compares the parent to its children and check to see if the parent is larger.
+    - If any child is larger we replace the correct child to its parent.
+    - Last we return the max element we popped in the beginning 
 # Code
 ```
 removeMax(){
       let max = this.values[0];
       let end = this.values.pop();
-      if(this.value.length > 0){
+      if(this.values.length > 0){
           this.values[0] = end;
           this.bubbleDown();
       }
@@ -46,6 +49,16 @@ removeMax(){
       }
 
     }
-    ```
+```
+
+
+# Summary extractMaxHeap
+- We need to remove the largest element in a heap and then order the heap to send the new largest element to the top.
+- pop() the index 0
+- We take the last element in the heap and put it in index 0
+- Use a bubble down method to swap element till all element are in the correct place.
+- We are using swap to save the index of the left or right child based on conditionals.
+
 # Notes 
 - Any function that doesn't take an input can use global variables from the outside.
+
