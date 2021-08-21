@@ -7,7 +7,7 @@
 removeMax(){
       let max = this.values[0];
       let end = this.values.pop();
-      if(this.value.length > 0){
+      if(this.values.length > 0){
           this.values[0] = end;
           this.bubbleDown();
       }
@@ -46,6 +46,15 @@ removeMax(){
       }
 
     }
-    ```
+```
+
+
+# Summary extractMaxHeap
+- We need to remove the largest element in a heap and then order the heap to send the new largest element to the top.
+- pop() the index 0
+- We take the last element in the heap and put it in index 0
+- Use a bubble down method to swap element till all element are in the correct place.
+
 # Notes 
 - Any function that doesn't take an input can use global variables from the outside.
+
