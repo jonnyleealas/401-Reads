@@ -63,4 +63,4 @@ removeMax(){
 
 # Notes 
 - Any function that doesn't take an input can use global variables from the outside.
-
+- We sometimes keep track of index, index value, array length, leftChild, rightChild, parent, etc.
