@@ -38,6 +38,7 @@ removeMax(){
         }
         if(rightIdx < length){
           rightChild = this.values[rightIdx];
+          // We have to check if we have swapped the correct child. Right can be larger than left and left can be larger than right. This makes sure we are swapping correctly.
           // if swap hasnt been set and rightChild is larger than element or 
           // if something has been swapped and rightChild is larger than left child
           if(
@@ -49,6 +50,7 @@ removeMax(){
         if(swap === null) break;
         this.values[idx] = this.values[swap];
         this.values[swap] = element;
+        // The idx needs to be updated. Say we swap elements. We then need to go to the lower numbers index and check its children to make sure we swapped to the correct position.
         idx = swap;
       }
 
