@@ -38,6 +38,8 @@ removeMax(){
         }
         if(rightIdx < length){
           rightChild = this.values[rightIdx];
+          // if swap hasnt been set and rightChild is larger than element or 
+          // if something has been swapped and rightChild is larger than left child
           if(
             (swap === null && rightChild > element) || (swap !== null && rightChild > leftChild)
           ){
