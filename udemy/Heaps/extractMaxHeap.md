@@ -28,7 +28,9 @@ removeMax(){
         let rightIdx = 2 * idx + 2;
         let leftChild, rightChild;
         let swap = null;
+        // We have no make sure the the leftChild is in bounds --> not over the length of the array
         if(leftIdx < length){
+        // If the index position is less than the length of array we can set the leftChildValue to the leftIndex position.
           leftChild = this.values[leftIdx];
           if(leftChild > element){
             swap = leftIdx;
