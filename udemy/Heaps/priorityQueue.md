@@ -1,6 +1,8 @@
 # Priority Queue
 - Serves the highest priority element
-
+# Time Complexity 
+- O(log n);
+- Great for insertion and deletion
 # Code 
 ```
 
