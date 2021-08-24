@@ -89,3 +89,6 @@ class PriorityQueue {
 # Summary
 - Its similar to a regular heap insert method except it has an added element called priority. 
 - Also we need to create a node that takes a value and a priority.
+
+# Notes
+- When checking left child I must remember to set a conditional to check whether rightChild is < than length. If if is we can compare the rest.
