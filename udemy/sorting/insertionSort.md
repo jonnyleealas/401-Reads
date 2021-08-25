@@ -2,6 +2,12 @@
 - Takes a sorted portion
     - Inserts element into sorted portion
 
+# Big O
+- Worst O(nˆ2)
+- Great for data that is coming in live or streaming and needs to be sorting asap
+
+# Space 
+- O(1)
 # Code
 ```
 function insertionSort(arr){
