@@ -5,3 +5,7 @@
     
 # Big O
 - O(N Log N)
+
+# Summary
+- Write a functions that merges two sorted arrays
+- Another recursive function will take the mid, left , and right values
