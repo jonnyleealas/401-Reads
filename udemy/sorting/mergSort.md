@@ -5,6 +5,7 @@
     
 # Big O
 - O(N Log N)
+- In the middle compared to most sorting algo. Not as good as linear or O(Log N) but bettter than O(Nˆ2)
 
 # Summary
 - Write a functions that merges two sorted arrays
